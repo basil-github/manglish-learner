@@ -2,18 +2,19 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import keys from "../public/data.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
+  const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
-  useEffect(() => {
-    //englishValue(typed);
-    console.log(englishValue(typed));
-  }, [typed]);
+
   const handleOnClick = (e) => {
-    setTyped((prevState) => [...prevState, e]);
-    console.log(typed);
-    //console.log(englishValue(typed));
+    if (e.variant) {
+      setVariantModel(e.variant);
+    } else {
+      setVariantModel([]);
+      setTyped((prevState) => [...prevState, e]);
+    }
   };
   const englishValue = (typed) => {
     let onlyEnglish = typed.map((val, i) => val.english);
@@ -23,7 +24,6 @@ export default function Home() {
     let onlyMalayalam = typed.map((val, i) => val.malayalam);
     return onlyMalayalam;
   };
-
   return (
     <div className={styles.container}>
       <Head>
@@ -46,15 +46,29 @@ export default function Home() {
             type="text"
             className="key_input"
             placeholder="type.."
-            value={manlishValue(typed).join("")}
+            defaultValue={manlishValue(typed).join("")}
           />
           <input
             type="text"
             className="key_input"
             placeholder="type.."
-            value={englishValue(typed).join("")}
+            defaultValue={englishValue(typed).join("")}
           />
         </div>
+        {variantModel.length > 1 && (
+          <div className={"floating_select " + styles.grid}>
+            {variantModel.map((key, i) => (
+              <button
+                key={i}
+                className="key__button"
+                onClick={() => handleOnClick(key)}
+              >
+                <span className="key_malayalam">{key.malayalam}</span>
+                {key.english}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className={styles.grid}>
           <button

@@ -13,5 +13,118 @@
         "key": 3,
         "english": "oo",
         "malayalam": "ഉ"
+    },
+    {
+        "key": 4,
+        "english": "ka",
+        "malayalam": "ക",
+        "variant": [
+            {
+                "key": 1,
+                "english": "ki",
+                "malayalam": "ക"
+            },
+            {
+                "key": 2,
+                "english": "ku",
+                "malayalam": "ക"
+            }
+        ]
+    },
+    {
+        "key": 1,
+        "english": "a",
+        "malayalam": "അ"
+    },
+    {
+        "key": 2,
+        "english": "aa",
+        "malayalam": "അ"
+    },
+    {
+        "key": 3,
+        "english": "oo",
+        "malayalam": "ഉ"
+    },
+    {
+        "key": 4,
+        "english": "ka",
+        "malayalam": "ക",
+        "variant": [
+            {
+                "key": 1,
+                "english": "ki",
+                "malayalam": "ക"
+            },
+            {
+                "key": 2,
+                "english": "ku",
+                "malayalam": "ക"
+            }
+        ]
+    },
+    {
+        "key": 1,
+        "english": "a",
+        "malayalam": "അ"
+    },
+    {
+        "key": 2,
+        "english": "aa",
+        "malayalam": "അ"
+    },
+    {
+        "key": 3,
+        "english": "oo",
+        "malayalam": "ഉ"
+    },
+    {
+        "key": 4,
+        "english": "ka",
+        "malayalam": "ക",
+        "variant": [
+            {
+                "key": 1,
+                "english": "ki",
+                "malayalam": "ക"
+            },
+            {
+                "key": 2,
+                "english": "ku",
+                "malayalam": "ക"
+            }
+        ]
+    },
+    {
+        "key": 1,
+        "english": "a",
+        "malayalam": "അ"
+    },
+    {
+        "key": 2,
+        "english": "aa",
+        "malayalam": "അ"
+    },
+    {
+        "key": 3,
+        "english": "oo",
+        "malayalam": "ഉ"
+    },
+    {
+        "key": 4,
+        "english": "ka",
+        "malayalam": "ക",
+        "variant": [
+            {
+                "key": 1,
+                "english": "ki",
+                "malayalam": "ക"
+            },
+            {
+                "key": 2,
+                "english": "ku",
+                "malayalam": "ക"
+            }
+        ]
     }
 ]

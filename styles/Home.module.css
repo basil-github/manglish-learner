@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .main {
@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #555;
 }
 
 .title,
@@ -62,8 +63,6 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -113,5 +112,23 @@
   .grid {
     width: 100%;
     flex-direction: row;
+  }
+
+  .title {
+    margin: 0;
+    line-height: .15;
+    font-size: 20px;
+  }
+
+  .main {
+    justify-content: flex-start;
+  }
+
+  .description {
+    margin: 2rem 0;
+    line-height: 1.5;
+    font-size: 14px;
+    width: 100%;
+    z-index: 1;
   }
 }
