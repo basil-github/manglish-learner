@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #a022f0;
   text-decoration: none;
 }
 
@@ -54,6 +54,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  width: 90%;
 }
 
 .code {
@@ -88,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #a022f0;
+  border-color: #a022f0;
 }
 
 .card h2 {
@@ -111,6 +112,6 @@
 @media (max-width: 600px) {
   .grid {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
