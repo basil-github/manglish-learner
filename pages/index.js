@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import keys from "../public/data.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
@@ -15,6 +15,10 @@ export default function Home() {
       setVariantModel([]);
       setTyped((prevState) => [...prevState, e]);
     }
+  };
+  const handleBackSpace = () => {
+    typed.pop();
+    setTyped((prevState) => [...prevState]);
   };
   const englishValue = (typed) => {
     let onlyEnglish = typed.map((val, i) => val.english);
@@ -71,6 +75,16 @@ export default function Home() {
         )}
 
         <div className={styles.grid}>
+          {keys.map((key, i) => (
+            <button
+              key={i}
+              className="key__button"
+              onClick={() => handleOnClick(key)}
+            >
+              <span className="key_malayalam">{key.malayalam}</span>
+              {key.english}
+            </button>
+          ))}
           <button
             className="key__button"
             onClick={() =>
@@ -84,19 +98,11 @@ export default function Home() {
             <span className="key_malayalam">⎵</span>⎵
           </button>
           <button className="key__button" onClick={() => setTyped([])}>
-            <span className="key_malayalam">⎚</span>
-            Clear
+            <span className="key_malayalam">⎚</span>clear
           </button>
-          {keys.map((key, i) => (
-            <button
-              key={i}
-              className="key__button"
-              onClick={() => handleOnClick(key)}
-            >
-              <span className="key_malayalam">{key.malayalam}</span>
-              {key.english}
-            </button>
-          ))}
+          <button className="key__button" onClick={() => handleBackSpace()}>
+            <span className="key_malayalam"></span>⌫
+          </button>
         </div>
       </main>
 
