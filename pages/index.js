@@ -16,6 +16,7 @@ export default function Home() {
       setTyped((prevState) => [...prevState, e]);
     }
   };
+  
   const handleBackSpace = () => {
     typed.pop();
     setTyped((prevState) => [...prevState]);
