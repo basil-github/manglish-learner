@@ -3,11 +3,17 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import keys from "../public/data.json";
 import { useState, useEffect } from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
+  const [copiedMalayalam, setCopiedMalayalam] = useState({
+    value: "",
+    copied: false,
+  });
 
+  console.log(copiedMalayalam);
   const handleOnClick = (e) => {
     if (e.variant) {
       setVariantModel(e.variant);
@@ -46,18 +52,36 @@ export default function Home() {
         </h1>
 
         <div className={styles.description}>
-          <input
-            type="text"
-            className="key_input"
-            placeholder="type.."
-            defaultValue={manlishValue(typed).join("")}
-          />
-          <input
-            type="text"
-            className="key_input"
-            placeholder="type.."
-            defaultValue={englishValue(typed).join("")}
-          />
+          <div className="input_malayalam">
+            <input
+              type="text"
+              className="key_input"
+              placeholder="type.."
+              defaultValue={manlishValue(typed).join("")}
+              disabled
+            />
+            <CopyToClipboard
+              text={manlishValue(typed).join("")}
+              onCopy={() => setCopiedMalayalam({ copied: true })}
+            >
+              <button className="key__button copy">copy</button>
+            </CopyToClipboard>
+          </div>
+          <div className="input_malayalam">
+            <input
+              type="text"
+              className="key_input"
+              placeholder="type.."
+              defaultValue={englishValue(typed).join("")}
+              disabled
+            />
+            <CopyToClipboard
+              text={englishValue(typed).join("")}
+              onCopy={() => setCopiedMalayalam({ copied: true })}
+            >
+              <button className="key__button copy">copy</button>
+            </CopyToClipboard>
+          </div>
         </div>
         {variantModel.length > 1 && (
           <div className={"floating_select " + styles.grid}>
@@ -78,7 +102,7 @@ export default function Home() {
           {keys.map((key, i) => (
             <button
               key={i}
-              className="key__button"
+              className={"key__button " + (i < 13 ? " variant_null" : "")}
               onClick={() => handleOnClick(key)}
             >
               <span className="key_malayalam">{key.malayalam}</span>

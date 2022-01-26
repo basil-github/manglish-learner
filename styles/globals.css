@@ -67,6 +67,7 @@ a {
   outline: none;
   border: none;
   box-shadow: 0 0 1.5px #a022f0;
+  text-align: center;
 }
 
 .key_input:focus {
@@ -110,4 +111,23 @@ a {
 
 .floating_select {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.input_malayalam {
+  position: relative;
+}
+
+.input_malayalam button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.variant_null {
+  border: .5px solid #a022f073;
+
 }

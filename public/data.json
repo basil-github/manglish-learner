@@ -1,129 +1,205 @@
 [
     {
-        "key": 1,
         "english": "a",
         "malayalam": "അ"
     },
     {
-        "key": 2,
-        "english": "aa",
-        "malayalam": "അ"
+        "english": "a",
+        "malayalam": "ആ"
     },
     {
-        "key": 3,
-        "english": "oo",
+        "english": "i",
+        "malayalam": "ഇ"
+    },
+    {
+        "english": "i",
+        "malayalam": "ഈ"
+    },
+    {
+        "english": "u",
         "malayalam": "ഉ"
     },
     {
-        "key": 4,
+        "english": "u",
+        "malayalam": "ഊ"
+    },
+    {
+        "english": "e",
+        "malayalam": "എ"
+    },
+    {
+        "english": "e",
+        "malayalam": "ഏ"
+    },
+    {
+        "english": "ai",
+        "malayalam": "ഐ"
+    },
+    {
+        "english": "o",
+        "malayalam": "ഒ"
+    },
+    {
+        "english": "au",
+        "malayalam": "ഔ"
+    },
+    {
+        "english": "am",
+        "malayalam": "അം"
+    },
+    {
+        "english": "ah",
+        "malayalam": "അഃ"
+    },
+    {
+        "english": ",",
+        "malayalam": ","
+    },
+    {
         "english": "ka",
         "malayalam": "ക",
         "variant": [
             {
-                "key": 1,
-                "english": "ki",
+                "english": "ka",
                 "malayalam": "ക"
             },
             {
-                "key": 2,
+                "english": "kaa",
+                "malayalam": "കാ"
+            },
+            {
+                "english": "ki",
+                "malayalam": "കി"
+            },
+            {
+                "english": "ki",
+                "malayalam": "കീ"
+            },
+            {
                 "english": "ku",
-                "malayalam": "ക"
+                "malayalam": "കു"
+            },
+            {
+                "english": "koo",
+                "malayalam": "കൂ"
+            },
+            {
+                "english": "ke",
+                "malayalam": "കെ"
+            },
+            {
+                "english": "ke",
+                "malayalam": "കേ"
+            },
+            {
+                "english": "kai",
+                "malayalam": "കൈ"
+            },
+            {
+                "english": "ko",
+                "malayalam": "കൊ"
+            },
+            {
+                "english": "ko",
+                "malayalam": "കോ"
+            },
+            {
+                "english": "kau",
+                "malayalam": "കൗ"
+            },
+            {
+                "english": "kam",
+                "malayalam": "കം"
+            },
+            {
+                "english": "kya",
+                "malayalam": "ക്യ"
+            },
+            {
+                "english": "kru",
+                "malayalam": "ക്ര"
+            },
+            {
+                "english": "kov",
+                "malayalam": "ക്വ"
+            },
+            {
+                "english": "kla",
+                "malayalam": "ക്ല"
             }
         ]
     },
     {
-        "key": 1,
-        "english": "a",
-        "malayalam": "അ"
-    },
-    {
-        "key": 2,
-        "english": "aa",
-        "malayalam": "അ"
-    },
-    {
-        "key": 3,
-        "english": "oo",
-        "malayalam": "ഉ"
-    },
-    {
-        "key": 4,
-        "english": "ka",
-        "malayalam": "ക",
+        "english": "kha",
+        "malayalam": "ഖ",
         "variant": [
             {
-                "key": 1,
-                "english": "ki",
-                "malayalam": "ക"
+                "english": "kha",
+                "malayalam": "ഖ"
             },
             {
-                "key": 2,
-                "english": "ku",
-                "malayalam": "ക"
-            }
-        ]
-    },
-    {
-        "key": 1,
-        "english": "a",
-        "malayalam": "അ"
-    },
-    {
-        "key": 2,
-        "english": "aa",
-        "malayalam": "അ"
-    },
-    {
-        "key": 3,
-        "english": "oo",
-        "malayalam": "ഉ"
-    },
-    {
-        "key": 4,
-        "english": "ka",
-        "malayalam": "ക",
-        "variant": [
-            {
-                "key": 1,
-                "english": "ki",
-                "malayalam": "ക"
+                "english": "khaa",
+                "malayalam": "ഖാ"
             },
             {
-                "key": 2,
-                "english": "ku",
-                "malayalam": "ക"
-            }
-        ]
-    },
-    {
-        "key": 1,
-        "english": "a",
-        "malayalam": "അ"
-    },
-    {
-        "key": 2,
-        "english": "aa",
-        "malayalam": "അ"
-    },
-    {
-        "key": 3,
-        "english": "oo",
-        "malayalam": "ഉ"
-    },
-    {
-        "key": 4,
-        "english": "ka",
-        "malayalam": "ക",
-        "variant": [
-            {
-                "key": 1,
-                "english": "ki",
-                "malayalam": "ക"
+                "english": "khi",
+                "malayalam": "ഖി"
             },
             {
-                "key": 2,
-                "english": "ku",
-                "malayalam": "ക"
+                "english": "khee",
+                "malayalam": "ഖീ"
+            },
+            {
+                "english": "khu",
+                "malayalam": "ഖു"
+            },
+            {
+                "english": "khoo",
+                "malayalam": "ഖൂ"
+            },
+            {
+                "english": "ke",
+                "malayalam": "കെ"
+            },
+            {
+                "english": "khe",
+                "malayalam": "ഖേ"
+            },
+            {
+                "english": "kai",
+                "malayalam": "കൈ"
+            },
+            {
+                "english": "ko",
+                "malayalam": "കൊ"
+            },
+            {
+                "english": "ko",
+                "malayalam": "കോ"
+            },
+            {
+                "english": "kau",
+                "malayalam": "കൗ"
+            },
+            {
+                "english": "kam",
+                "malayalam": "കം"
+            },
+            {
+                "english": "kya",
+                "malayalam": "ക്യ"
+            },
+            {
+                "english": "kru",
+                "malayalam": "ക്ര"
+            },
+            {
+                "english": "kov",
+                "malayalam": "ക്വ"
+            },
+            {
+                "english": "kla",
+                "malayalam": "ക്ല"
             }
         ]
     }
