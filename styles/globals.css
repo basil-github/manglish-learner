@@ -102,7 +102,7 @@ a {
   background-color: #ffffff;
   height: fit-content;
   z-index: 1;
-  width: fit-content !important;
+  width: 95% !important;
   box-shadow: 0 0 5px #a022f0;
   border-width: 1px;
   border-radius: 10px;

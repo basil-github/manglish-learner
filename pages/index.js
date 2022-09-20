@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import keys from "../public/data.json";
 import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-
+import { CopyOutlined, PlayCircleFilled } from "@ant-design/icons";
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
@@ -35,113 +35,95 @@ export default function Home() {
     return onlyMalayalam;
   };
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Learn മൻglish</title>
-        <meta
-          name="description"
-          content="By this App മൻglish typing skill will improve"
-        />
-        <meta name="author" content="Basil Babu" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a> Learn മൻglish </a>
-        </h1>
-
-        <div className={styles.description}>
-          <div className="input_malayalam">
-            <input
-              type="text"
-              className="key_input"
-              placeholder="type.."
-              defaultValue={manlishValue(typed).join("")}
-              disabled
-            />
-            <CopyToClipboard
-              text={manlishValue(typed).join("")}
-              onCopy={() => setCopiedMalayalam({ copied: true })}
-            >
-              <button className="key__button copy">copy</button>
-            </CopyToClipboard>
-          </div>
-          <div className="input_malayalam">
-            <input
-              type="text"
-              className="key_input"
-              placeholder="type.."
-              defaultValue={englishValue(typed).join("")}
-              disabled
-            />
-            <CopyToClipboard
-              text={englishValue(typed).join("")}
-              onCopy={() => setCopiedMalayalam({ copied: true })}
-            >
-              <button className="key__button copy">copy</button>
-            </CopyToClipboard>
-          </div>
+    <>
+      <div className={styles.description}>
+        <div className="input_malayalam">
+          <input
+            type="text"
+            className="key_input"
+            placeholder="type.."
+            defaultValue={manlishValue(typed).join("")}
+            disabled
+          />
+          <CopyToClipboard
+            text={manlishValue(typed).join("")}
+            onCopy={() => setCopiedMalayalam({ copied: true })}
+          >
+            <button className="key__button copy">
+              <CopyOutlined />
+            </button>
+          </CopyToClipboard>{" "}
         </div>
-        {variantModel.length > 1 && (
-          <div className={"floating_select " + styles.grid}>
-            {variantModel.map((key, i) => (
-              <button
-                key={i}
-                className="key__button"
-                onClick={() => handleOnClick(key)}
-              >
-                <span className="key_malayalam">{key.malayalam}</span>
-                {key.english}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className={styles.grid}>
-          {keys.map((key, i) => (
+        <div className="input_malayalam">
+          <input
+            type="text"
+            className="key_input"
+            placeholder="type.."
+            defaultValue={englishValue(typed).join("")}
+            disabled
+          />
+          <CopyToClipboard
+            text={englishValue(typed).join("")}
+            onCopy={() => setCopiedMalayalam({ copied: true })}
+          >
+            <button className="key__button copy">
+              <CopyOutlined />
+            </button>
+          </CopyToClipboard>
+        </div>
+        <PlayCircleFilled
+          style={{
+            color: "#a022f0",
+            fontSize: "35px",
+            marginTop: "2rem",
+          }}
+        />
+      </div>
+      {variantModel.length > 1 && (
+        <div className={"floating_select " + styles.grid}>
+          {variantModel.map((key, i) => (
             <button
               key={i}
-              className={"key__button " + (i < 13 ? " variant_null" : "")}
+              className="key__button"
               onClick={() => handleOnClick(key)}
             >
               <span className="key_malayalam">{key.malayalam}</span>
               {key.english}
             </button>
           ))}
-          <button
-            className="key__button"
-            onClick={() =>
-              handleOnClick({
-                key: "⎵",
-                english: " ",
-                malayalam: " ",
-              })
-            }
-          >
-            <span className="key_malayalam">⎵</span>⎵
-          </button>
-          <button className="key__button" onClick={() => setTyped([])}>
-            <span className="key_malayalam">⎚</span>clear
-          </button>
-          <button className="key__button" onClick={() => handleBackSpace()}>
-            <span className="key_malayalam"></span>⌫
-          </button>
         </div>
-      </main>
+      )}
 
-      <footer className={styles.footer}>
-        <a
-          href="https://www.instagram.com/b_a_z_i_l__/"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className={styles.grid}>
+        {keys.map((key, i) => (
+          <button
+            key={i}
+            className={"key__button " + (i < 13 ? " variant_null" : "")}
+            onClick={() => handleOnClick(key)}
+          >
+            <span className="key_malayalam">{key.malayalam}</span>
+            {key.english}
+          </button>
+        ))}
+        <button
+          className="key__button"
+          onClick={() =>
+            handleOnClick({
+              key: "⎵",
+              english: " ",
+              malayalam: " ",
+            })
+          }
         >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/beacel.png" alt="beacel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
+          <span className="key_malayalam">⎵</span>⎵
+        </button>
+        <button className="key__button" onClick={() => setTyped([])}>
+          <span className="key_malayalam">⎚</span>clear
+        </button>
+        <button className="key__button" onClick={() => handleBackSpace()}>
+          <span className="key_malayalam"></span>⌫
+        </button>
+      </div>
+    </>
   );
 }
