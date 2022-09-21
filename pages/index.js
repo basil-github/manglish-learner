@@ -13,7 +13,6 @@ export default function Home() {
     copied: false,
   });
 
-  console.log(copiedMalayalam);
   const handleOnClick = (e) => {
     if (e.variant) {
       setVariantModel(e.variant);
@@ -34,6 +33,16 @@ export default function Home() {
     let onlyMalayalam = typed.map((val, i) => val.malayalam);
     return onlyMalayalam;
   };
+
+  function speak(text) {
+    let speakData = new SpeechSynthesisUtterance();
+    speakData.text = text;
+    speakData.lang = "in";
+    speakData.volume = 1; // From 0 to 1
+    speakData.rate = 1; // From 0.1 to 10
+    speakData.pitch = 1; // From 0 to 2
+    speechSynthesis.speak(speakData);
+  }
   return (
     <>
       <div className={styles.description}>
@@ -76,6 +85,9 @@ export default function Home() {
             color: "#a022f0",
             fontSize: "35px",
             marginTop: "2rem",
+          }}
+          onClick={() => {
+            speak(englishValue(typed).join(""));
           }}
         />
       </div>
