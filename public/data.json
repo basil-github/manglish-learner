@@ -1,206 +1,2819 @@
 [
-    {
-        "english": "a",
-        "malayalam": "അ"
-    },
-    {
-        "english": "a",
-        "malayalam": "ആ"
-    },
-    {
-        "english": "i",
-        "malayalam": "ഇ"
-    },
-    {
-        "english": "i",
-        "malayalam": "ഈ"
-    },
-    {
-        "english": "u",
-        "malayalam": "ഉ"
-    },
-    {
-        "english": "u",
-        "malayalam": "ഊ"
-    },
-    {
-        "english": "e",
-        "malayalam": "എ"
-    },
-    {
-        "english": "e",
-        "malayalam": "ഏ"
-    },
-    {
-        "english": "ai",
-        "malayalam": "ഐ"
-    },
-    {
-        "english": "o",
-        "malayalam": "ഒ"
-    },
-    {
-        "english": "au",
-        "malayalam": "ഔ"
-    },
-    {
-        "english": "am",
-        "malayalam": "അം"
-    },
-    {
-        "english": "ah",
-        "malayalam": "അഃ"
-    },
-    {
-        "english": ",",
-        "malayalam": ","
-    },
-    {
+  {
+    "english": "a",
+    "malayalam": "അ"
+  },
+  {
+    "english": "a",
+    "malayalam": "ആ"
+  },
+  {
+    "english": "i",
+    "malayalam": "ഇ"
+  },
+  {
+    "english": "i",
+    "malayalam": "ഈ"
+  },
+  {
+    "english": "u",
+    "malayalam": "ഉ"
+  },
+  {
+    "english": "u",
+    "malayalam": "ഊ"
+  },
+  {
+    "english": "e",
+    "malayalam": "എ"
+  },
+  {
+    "english": "e",
+    "malayalam": "ഏ"
+  },
+  {
+    "english": "ai",
+    "malayalam": "ഐ"
+  },
+  {
+    "english": "o",
+    "malayalam": "ഒ"
+  },
+  {
+    "english": "au",
+    "malayalam": "ഔ"
+  },
+  {
+    "english": "am",
+    "malayalam": "അം"
+  },
+  {
+    "english": "ah",
+    "malayalam": "അഃ"
+  },
+  {
+    "english": ",",
+    "malayalam": ","
+  },
+  {
+    "english": "ka",
+    "malayalam": "ക",
+    "variant": [
+      {
         "english": "ka",
-        "malayalam": "ക",
-        "variant": [
-            {
-                "english": "ka",
-                "malayalam": "ക"
-            },
-            {
-                "english": "kaa",
-                "malayalam": "കാ"
-            },
-            {
-                "english": "ki",
-                "malayalam": "കി"
-            },
-            {
-                "english": "ki",
-                "malayalam": "കീ"
-            },
-            {
-                "english": "ku",
-                "malayalam": "കു"
-            },
-            {
-                "english": "koo",
-                "malayalam": "കൂ"
-            },
-            {
-                "english": "ke",
-                "malayalam": "കെ"
-            },
-            {
-                "english": "ke",
-                "malayalam": "കേ"
-            },
-            {
-                "english": "kai",
-                "malayalam": "കൈ"
-            },
-            {
-                "english": "ko",
-                "malayalam": "കൊ"
-            },
-            {
-                "english": "ko",
-                "malayalam": "കോ"
-            },
-            {
-                "english": "kau",
-                "malayalam": "കൗ"
-            },
-            {
-                "english": "kam",
-                "malayalam": "കം"
-            },
-            {
-                "english": "kya",
-                "malayalam": "ക്യ"
-            },
-            {
-                "english": "kru",
-                "malayalam": "ക്ര"
-            },
-            {
-                "english": "kov",
-                "malayalam": "ക്വ"
-            },
-            {
-                "english": "kla",
-                "malayalam": "ക്ല"
-            }
-        ]
-    },
-    {
+        "malayalam": "ക"
+      },
+      {
+        "english": "kaa",
+        "malayalam": "കാ"
+      },
+      {
+        "english": "ki",
+        "malayalam": "കി"
+      },
+      {
+        "english": "ki",
+        "malayalam": "കീ"
+      },
+      {
+        "english": "ku",
+        "malayalam": "കു"
+      },
+      {
+        "english": "koo",
+        "malayalam": "കൂ"
+      },
+      {
+        "english": "ke",
+        "malayalam": "കെ"
+      },
+      {
+        "english": "ke",
+        "malayalam": "കേ"
+      },
+      {
+        "english": "kai",
+        "malayalam": "കൈ"
+      },
+      {
+        "english": "ko",
+        "malayalam": "കൊ"
+      },
+      {
+        "english": "ko",
+        "malayalam": "കോ"
+      },
+      {
+        "english": "kau",
+        "malayalam": "കൗ"
+      },
+      {
+        "english": "kam",
+        "malayalam": "കം"
+      },
+      {
+        "english": "kya",
+        "malayalam": "ക്യ"
+      },
+      {
+        "english": "kru",
+        "malayalam": "ക്ര"
+      },
+      {
+        "english": "kov",
+        "malayalam": "ക്വ"
+      },
+      {
+        "english": "kla",
+        "malayalam": "ക്ല"
+      }
+    ]
+  },
+  {
+    "english": "kha",
+    "malayalam": "ഖ",
+    "variant": [
+      {
         "english": "kha",
-        "malayalam": "ഖ",
-        "variant": [
-            {
-                "english": "kha",
-                "malayalam": "ഖ"
-            },
-            {
-                "english": "khaa",
-                "malayalam": "ഖാ"
-            },
-            {
-                "english": "khi",
-                "malayalam": "ഖി"
-            },
-            {
-                "english": "khee",
-                "malayalam": "ഖീ"
-            },
-            {
-                "english": "khu",
-                "malayalam": "ഖു"
-            },
-            {
-                "english": "khoo",
-                "malayalam": "ഖൂ"
-            },
-            {
-                "english": "ke",
-                "malayalam": "കെ"
-            },
-            {
-                "english": "khe",
-                "malayalam": "ഖേ"
-            },
-            {
-                "english": "kai",
-                "malayalam": "കൈ"
-            },
-            {
-                "english": "ko",
-                "malayalam": "കൊ"
-            },
-            {
-                "english": "ko",
-                "malayalam": "കോ"
-            },
-            {
-                "english": "kau",
-                "malayalam": "കൗ"
-            },
-            {
-                "english": "kam",
-                "malayalam": "കം"
-            },
-            {
-                "english": "kya",
-                "malayalam": "ക്യ"
-            },
-            {
-                "english": "kru",
-                "malayalam": "ക്ര"
-            },
-            {
-                "english": "kov",
-                "malayalam": "ക്വ"
-            },
-            {
-                "english": "kla",
-                "malayalam": "ക്ല"
-            }
-        ]
-    }
+        "malayalam": "ഖ"
+      },
+      {
+        "english": "khaa",
+        "malayalam": "ഖാ"
+      },
+      {
+        "english": "khi",
+        "malayalam": "ഖി"
+      },
+      {
+        "english": "khee",
+        "malayalam": "ഖീ"
+      },
+      {
+        "english": "khu",
+        "malayalam": "ഖു"
+      },
+      {
+        "english": "khoo",
+        "malayalam": "ഖൂ"
+      },
+      {
+        "english": "ke",
+        "malayalam": "ഖെ"
+      },
+      {
+        "english": "khe",
+        "malayalam": "ഖേ"
+      },
+      {
+        "english": "kai",
+        "malayalam": "ഖൈ"
+      },
+      {
+        "english": "ko",
+        "malayalam": "ഖൊ"
+      },
+      {
+        "english": "ko",
+        "malayalam": "ഖോ"
+      },
+      {
+        "english": "kau",
+        "malayalam": "ഖൗ"
+      },
+      {
+        "english": "kam",
+        "malayalam": "ഖം"
+      },
+      {
+        "english": "kya",
+        "malayalam": "ഖൃ"
+      },
+      {
+        "english": "kru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "kov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "kla",
+        "malayalam": "ക്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ga",
+    "malayalam": "ഗ",
+    "variant": [
+      {
+        "english": "ga",
+        "malayalam": "ഗ"
+      },
+      {
+        "english": "gaa",
+        "malayalam": "ഗാ"
+      },
+      {
+        "english": "gi",
+        "malayalam": "ഗി"
+      },
+      {
+        "english": "gee",
+        "malayalam": "ഗീ"
+      },
+      {
+        "english": "gu",
+        "malayalam": "ഗു"
+      },
+      {
+        "english": "goo",
+        "malayalam": "ഗൂ"
+      },
+      {
+        "english": "ge",
+        "malayalam": "ഗെ"
+      },
+      {
+        "english": "ge",
+        "malayalam": "ഗേ"
+      },
+      {
+        "english": "gai",
+        "malayalam": "ഗൈ"
+      },
+      {
+        "english": "go",
+        "malayalam": "ഗൊ"
+      },
+      {
+        "english": "go",
+        "malayalam": "ഗോ"
+      },
+      {
+        "english": "gau",
+        "malayalam": "ഗൗ"
+      },
+      {
+        "english": "gam",
+        "malayalam": "ഗം"
+      },
+      {
+        "english": "gya",
+        "malayalam": "ഗൃ"
+      },
+      {
+        "english": "gru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "gov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "gla",
+        "malayalam": "ഗ്ല"
+      }
+    ]
+  },
+  {
+    "english": "gha",
+    "malayalam": "ഘ",
+    "variant": [
+      {
+        "english": "gha",
+        "malayalam": "ഘ"
+      },
+      {
+        "english": "ghaa",
+        "malayalam": "ഘാ"
+      },
+      {
+        "english": "ghi",
+        "malayalam": "ഘി"
+      },
+      {
+        "english": "ghee",
+        "malayalam": "ഘീ"
+      },
+      {
+        "english": "ghu",
+        "malayalam": "ഘു"
+      },
+      {
+        "english": "ghoo",
+        "malayalam": "ഘൂ"
+      },
+      {
+        "english": "ghe",
+        "malayalam": "ഘെ"
+      },
+      {
+        "english": "ghe",
+        "malayalam": "ഘേ"
+      },
+      {
+        "english": "ghai",
+        "malayalam": "ഘൈ"
+      },
+      {
+        "english": "gho",
+        "malayalam": "ഘൊ"
+      },
+      {
+        "english": "gho",
+        "malayalam": "ഘോ"
+      },
+      {
+        "english": "ghau",
+        "malayalam": "ഘൗ"
+      },
+      {
+        "english": "gham",
+        "malayalam": "ഘം"
+      },
+      {
+        "english": "ghya",
+        "malayalam": "ഘൃ"
+      },
+      {
+        "english": "ghru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "ghov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "ghla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "nga",
+    "malayalam": "ങ",
+    "variant": [
+      {
+        "english": "nga",
+        "malayalam": "ങ"
+      },
+      {
+        "english": "ngaa",
+        "malayalam": "ങാ"
+      },
+      {
+        "english": "ngi",
+        "malayalam": "ങി"
+      },
+      {
+        "english": "ngee",
+        "malayalam": "ങീ"
+      },
+      {
+        "english": "ngu",
+        "malayalam": "ങു"
+      },
+      {
+        "english": "ngoo",
+        "malayalam": "ങൂ"
+      },
+      {
+        "english": "nge",
+        "malayalam": "ങെ"
+      },
+      {
+        "english": "nge",
+        "malayalam": "ങേ"
+      },
+      {
+        "english": "ngai",
+        "malayalam": "ങൈ"
+      },
+      {
+        "english": "ngo",
+        "malayalam": "ങൊ"
+      },
+      {
+        "english": "ngo",
+        "malayalam": "ങോ"
+      },
+      {
+        "english": "ngau",
+        "malayalam": "ങൗ"
+      },
+      {
+        "english": "ngam",
+        "malayalam": "ങം"
+      },
+      {
+        "english": "ngya",
+        "malayalam": "ങൃ"
+      },
+      {
+        "english": "ngru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "ngov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "ngla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "cha",
+    "malayalam": "ച",
+    "variant": [
+      {
+        "english": "cha",
+        "malayalam": "ച"
+      },
+      {
+        "english": "chaa",
+        "malayalam": "ചാ"
+      },
+      {
+        "english": "chi",
+        "malayalam": "ചി"
+      },
+      {
+        "english": "chee",
+        "malayalam": "ചീ"
+      },
+      {
+        "english": "chu",
+        "malayalam": "ചു"
+      },
+      {
+        "english": "choo",
+        "malayalam": "ചൂ"
+      },
+      {
+        "english": "che",
+        "malayalam": "ചെ"
+      },
+      {
+        "english": "che",
+        "malayalam": "ചേ"
+      },
+      {
+        "english": "chai",
+        "malayalam": "ചൈ"
+      },
+      {
+        "english": "cho",
+        "malayalam": "ചൊ"
+      },
+      {
+        "english": "cho",
+        "malayalam": "ചോ"
+      },
+      {
+        "english": "chau",
+        "malayalam": "ചൗ"
+      },
+      {
+        "english": "cham",
+        "malayalam": "ചം"
+      },
+      {
+        "english": "chya",
+        "malayalam": "ചൃ"
+      },
+      {
+        "english": "chru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "chov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "chla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "chha",
+    "malayalam": "ഛ",
+    "variant": [
+      {
+        "english": "cha",
+        "malayalam": "ഛ"
+      },
+      {
+        "english": "chhaa",
+        "malayalam": "ഛാ"
+      },
+      {
+        "english": "chhi",
+        "malayalam": "ഛി"
+      },
+      {
+        "english": "chhee",
+        "malayalam": "ഛീ"
+      },
+      {
+        "english": "chhu",
+        "malayalam": "ഛു"
+      },
+      {
+        "english": "chhoo",
+        "malayalam": "ഛൂ"
+      },
+      {
+        "english": "chhe",
+        "malayalam": "ഛെ"
+      },
+      {
+        "english": "chhe",
+        "malayalam": "ഛേ"
+      },
+      {
+        "english": "chhai",
+        "malayalam": "ഛൈ"
+      },
+      {
+        "english": "chho",
+        "malayalam": "ഛൊ"
+      },
+      {
+        "english": "chho",
+        "malayalam": "ഛോ"
+      },
+      {
+        "english": "chhau",
+        "malayalam": "ഛൗ"
+      },
+      {
+        "english": "chham",
+        "malayalam": "ഛം"
+      },
+      {
+        "english": "chhya",
+        "malayalam": "ഛൃ"
+      },
+      {
+        "english": "chhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "chhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "chhla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ja",
+    "malayalam": "ജ",
+    "variant": [
+      {
+        "english": "ja",
+        "malayalam": "ജ"
+      },
+      {
+        "english": "jaa",
+        "malayalam": "ജാ"
+      },
+      {
+        "english": "ji",
+        "malayalam": "ജി"
+      },
+      {
+        "english": "jee",
+        "malayalam": "ജീ"
+      },
+      {
+        "english": "ju",
+        "malayalam": "ജു"
+      },
+      {
+        "english": "joo",
+        "malayalam": "ജൂ"
+      },
+      {
+        "english": "je",
+        "malayalam": "ജെ"
+      },
+      {
+        "english": "je",
+        "malayalam": "ജേ"
+      },
+      {
+        "english": "jai",
+        "malayalam": "ജൈ"
+      },
+      {
+        "english": "jo",
+        "malayalam": "ജൊ"
+      },
+      {
+        "english": "jo",
+        "malayalam": "ജോ"
+      },
+      {
+        "english": "jau",
+        "malayalam": "ജൗ"
+      },
+      {
+        "english": "jam",
+        "malayalam": "ജം"
+      },
+      {
+        "english": "jya",
+        "malayalam": "ജൃ"
+      },
+      {
+        "english": "jru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "jov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "jla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "jha",
+    "malayalam": "ഝ",
+    "variant": [
+      {
+        "english": "jha",
+        "malayalam": "ഝ"
+      },
+      {
+        "english": "jhaa",
+        "malayalam": "ഝാ"
+      },
+      {
+        "english": "jhi",
+        "malayalam": "ഝി"
+      },
+      {
+        "english": "jhee",
+        "malayalam": "ഝീ"
+      },
+      {
+        "english": "jhu",
+        "malayalam": "ഝു"
+      },
+      {
+        "english": "jhoo",
+        "malayalam": "ഝൂ"
+      },
+      {
+        "english": "jhe",
+        "malayalam": "ഝെ"
+      },
+      {
+        "english": "jhe",
+        "malayalam": "ഝേ"
+      },
+      {
+        "english": "jhai",
+        "malayalam": "ഝൈ"
+      },
+      {
+        "english": "jho",
+        "malayalam": "ഝൊ"
+      },
+      {
+        "english": "jho",
+        "malayalam": "ഝോ"
+      },
+      {
+        "english": "jhau",
+        "malayalam": "ഝൗ"
+      },
+      {
+        "english": "jham",
+        "malayalam": "ഝം"
+      },
+      {
+        "english": "jhya",
+        "malayalam": "ഝൃ"
+      },
+      {
+        "english": "jhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "jhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "jhla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "nya",
+    "malayalam": "ഞ",
+    "variant": [
+      {
+        "english": "nya",
+        "malayalam": "ഞ"
+      },
+      {
+        "english": "nyaa",
+        "malayalam": "ഞാ"
+      },
+      {
+        "english": "nyi",
+        "malayalam": "ഞി"
+      },
+      {
+        "english": "nyee",
+        "malayalam": "ഞീ"
+      },
+      {
+        "english": "nyu",
+        "malayalam": "ഞു"
+      },
+      {
+        "english": "nyoo",
+        "malayalam": "ഞൂ"
+      },
+      {
+        "english": "nye",
+        "malayalam": "ഞെ"
+      },
+      {
+        "english": "nye",
+        "malayalam": "ഞേ"
+      },
+      {
+        "english": "nyai",
+        "malayalam": "ഞൈ"
+      },
+      {
+        "english": "nyo",
+        "malayalam": "ഞൊ"
+      },
+      {
+        "english": "nyo",
+        "malayalam": "ഞോ"
+      },
+      {
+        "english": "nyau",
+        "malayalam": "ഞൗ"
+      },
+      {
+        "english": "nyam",
+        "malayalam": "ഞം"
+      },
+      {
+        "english": "nyya",
+        "malayalam": "ഞൃ"
+      },
+      {
+        "english": "nyru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "nyov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "nyla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "tta",
+    "malayalam": "ട",
+    "variant": [
+      {
+        "english": "tta",
+        "malayalam": "ട"
+      },
+      {
+        "english": "ttaa",
+        "malayalam": "ടാ"
+      },
+      {
+        "english": "tti",
+        "malayalam": "ടി"
+      },
+      {
+        "english": "ttee",
+        "malayalam": "ടീ"
+      },
+      {
+        "english": "ttu",
+        "malayalam": "ടു"
+      },
+      {
+        "english": "ttoo",
+        "malayalam": "ടൂ"
+      },
+      {
+        "english": "tte",
+        "malayalam": "ടെ"
+      },
+      {
+        "english": "tte",
+        "malayalam": "ടേ"
+      },
+      {
+        "english": "ttai",
+        "malayalam": "ടൈ"
+      },
+      {
+        "english": "tto",
+        "malayalam": "ടൊ"
+      },
+      {
+        "english": "tto",
+        "malayalam": "ടോ"
+      },
+      {
+        "english": "ttau",
+        "malayalam": "ടൗ"
+      },
+      {
+        "english": "ttam",
+        "malayalam": "ടം"
+      },
+      {
+        "english": "ttya",
+        "malayalam": "ടൃ"
+      },
+      {
+        "english": "ttru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "ttov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "ttla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ttha",
+    "malayalam": "ഠ",
+    "variant": [
+      {
+        "english": "ttha",
+        "malayalam": "ഠ"
+      },
+      {
+        "english": "tthaa",
+        "malayalam": "ഠാ"
+      },
+      {
+        "english": "tthi",
+        "malayalam": "ഠി"
+      },
+      {
+        "english": "tthee",
+        "malayalam": "ഠീ"
+      },
+      {
+        "english": "tthu",
+        "malayalam": "ഠു"
+      },
+      {
+        "english": "tthoo",
+        "malayalam": "ഠൂ"
+      },
+      {
+        "english": "tthe",
+        "malayalam": "ഠെ"
+      },
+      {
+        "english": "tthe",
+        "malayalam": "ഠേ"
+      },
+      {
+        "english": "tthai",
+        "malayalam": "ഠൈ"
+      },
+      {
+        "english": "ttho",
+        "malayalam": "ഠൊ"
+      },
+      {
+        "english": "ttho",
+        "malayalam": "ഠോ"
+      },
+      {
+        "english": "tthau",
+        "malayalam": "ഠൗ"
+      },
+      {
+        "english": "ttham",
+        "malayalam": "ഠം"
+      },
+      {
+        "english": "tthya",
+        "malayalam": "ഠൃ"
+      },
+      {
+        "english": "tthru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "tthov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "tthla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "dda",
+    "malayalam": "ഡ",
+    "variant": [
+      {
+        "english": "dda",
+        "malayalam": "ഡ"
+      },
+      {
+        "english": "ddaa",
+        "malayalam": "ഡാ"
+      },
+      {
+        "english": "ddi",
+        "malayalam": "ഡി"
+      },
+      {
+        "english": "ddee",
+        "malayalam": "ഡീ"
+      },
+      {
+        "english": "ddu",
+        "malayalam": "ഡു"
+      },
+      {
+        "english": "ddoo",
+        "malayalam": "ഡൂ"
+      },
+      {
+        "english": "dde",
+        "malayalam": "ഡെ"
+      },
+      {
+        "english": "dde",
+        "malayalam": "ഡേ"
+      },
+      {
+        "english": "ddai",
+        "malayalam": "ഡൈ"
+      },
+      {
+        "english": "ddo",
+        "malayalam": "ഡൊ"
+      },
+      {
+        "english": "ddo",
+        "malayalam": "ഡോ"
+      },
+      {
+        "english": "ddau",
+        "malayalam": "ഡൗ"
+      },
+      {
+        "english": "ddam",
+        "malayalam": "ഡം"
+      },
+      {
+        "english": "ddya",
+        "malayalam": "ഡൃ"
+      },
+      {
+        "english": "ddru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "ddov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "ddla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ddha",
+    "malayalam": "ഢ",
+    "variant": [
+      {
+        "english": "ddha",
+        "malayalam": "ഢ"
+      },
+      {
+        "english": "ddhaa",
+        "malayalam": "ഢാ"
+      },
+      {
+        "english": "ddhi",
+        "malayalam": "ഢി"
+      },
+      {
+        "english": "ddhee",
+        "malayalam": "ഢീ"
+      },
+      {
+        "english": "ddhu",
+        "malayalam": "ഢു"
+      },
+      {
+        "english": "ddhoo",
+        "malayalam": "ഢൂ"
+      },
+      {
+        "english": "ddhe",
+        "malayalam": "ഢെ"
+      },
+      {
+        "english": "ddhe",
+        "malayalam": "ഢേ"
+      },
+      {
+        "english": "ddhai",
+        "malayalam": "ഢൈ"
+      },
+      {
+        "english": "ddho",
+        "malayalam": "ഢൊ"
+      },
+      {
+        "english": "ddho",
+        "malayalam": "ഢോ"
+      },
+      {
+        "english": "ddhau",
+        "malayalam": "ഢൗ"
+      },
+      {
+        "english": "ddham",
+        "malayalam": "ഢം"
+      },
+      {
+        "english": "ddhya",
+        "malayalam": "ഢൃ"
+      },
+      {
+        "english": "ddhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "ddhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "ddhla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "nna",
+    "malayalam": "ണ",
+    "variant": [
+      {
+        "english": "nna",
+        "malayalam": "ണ"
+      },
+      {
+        "english": "nnaa",
+        "malayalam": "ണാ"
+      },
+      {
+        "english": "nni",
+        "malayalam": "ണി"
+      },
+      {
+        "english": "nnee",
+        "malayalam": "ണീ"
+      },
+      {
+        "english": "nnu",
+        "malayalam": "ണു"
+      },
+      {
+        "english": "nnoo",
+        "malayalam": "ണൂ"
+      },
+      {
+        "english": "nne",
+        "malayalam": "ണെ"
+      },
+      {
+        "english": "nne",
+        "malayalam": "ണേ"
+      },
+      {
+        "english": "nnai",
+        "malayalam": "ണൈ"
+      },
+      {
+        "english": "nno",
+        "malayalam": "ണൊ"
+      },
+      {
+        "english": "nno",
+        "malayalam": "ണോ"
+      },
+      {
+        "english": "nnau",
+        "malayalam": "ണൗ"
+      },
+      {
+        "english": "nnam",
+        "malayalam": "ണം"
+      },
+      {
+        "english": "nnya",
+        "malayalam": "ണൃ"
+      },
+      {
+        "english": "nnru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "nnov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "nnla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ta",
+    "malayalam": "ത",
+    "variant": [
+      {
+        "english": "ta",
+        "malayalam": "ത"
+      },
+      {
+        "english": "taa",
+        "malayalam": "താ"
+      },
+      {
+        "english": "ti",
+        "malayalam": "തി"
+      },
+      {
+        "english": "tee",
+        "malayalam": "തീ"
+      },
+      {
+        "english": "tu",
+        "malayalam": "തു"
+      },
+      {
+        "english": "too",
+        "malayalam": "തൂ"
+      },
+      {
+        "english": "te",
+        "malayalam": "തെ"
+      },
+      {
+        "english": "te",
+        "malayalam": "തേ"
+      },
+      {
+        "english": "tai",
+        "malayalam": "തൈ"
+      },
+      {
+        "english": "to",
+        "malayalam": "തൊ"
+      },
+      {
+        "english": "to",
+        "malayalam": "തോ"
+      },
+      {
+        "english": "tau",
+        "malayalam": "തൗ"
+      },
+      {
+        "english": "tam",
+        "malayalam": "തം"
+      },
+      {
+        "english": "tya",
+        "malayalam": "തൃ"
+      },
+      {
+        "english": "tru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "tov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "tla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "tha",
+    "malayalam": "ഥ",
+    "variant": [
+      {
+        "english": "tha",
+        "malayalam": "ഥ"
+      },
+      {
+        "english": "thaa",
+        "malayalam": "ഥാ"
+      },
+      {
+        "english": "thi",
+        "malayalam": "ഥി"
+      },
+      {
+        "english": "thee",
+        "malayalam": "ഥീ"
+      },
+      {
+        "english": "thu",
+        "malayalam": "ഥു"
+      },
+      {
+        "english": "thoo",
+        "malayalam": "ഥൂ"
+      },
+      {
+        "english": "the",
+        "malayalam": "ഥെ"
+      },
+      {
+        "english": "the",
+        "malayalam": "ഥേ"
+      },
+      {
+        "english": "thai",
+        "malayalam": "ഥൈ"
+      },
+      {
+        "english": "tho",
+        "malayalam": "ഥൊ"
+      },
+      {
+        "english": "tho",
+        "malayalam": "ഥോ"
+      },
+      {
+        "english": "thau",
+        "malayalam": "ഥൗ"
+      },
+      {
+        "english": "tham",
+        "malayalam": "ഥം"
+      },
+      {
+        "english": "thya",
+        "malayalam": "ഥൃ"
+      },
+      {
+        "english": "thru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "thov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "thla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "da",
+    "malayalam": "ദ",
+    "variant": [
+      {
+        "english": "da",
+        "malayalam": "ദ"
+      },
+      {
+        "english": "daa",
+        "malayalam": "ദാ"
+      },
+      {
+        "english": "di",
+        "malayalam": "ദി"
+      },
+      {
+        "english": "dee",
+        "malayalam": "ദീ"
+      },
+      {
+        "english": "du",
+        "malayalam": "ദു"
+      },
+      {
+        "english": "doo",
+        "malayalam": "ദൂ"
+      },
+      {
+        "english": "de",
+        "malayalam": "ദെ"
+      },
+      {
+        "english": "de",
+        "malayalam": "ദേ"
+      },
+      {
+        "english": "dai",
+        "malayalam": "ദൈ"
+      },
+      {
+        "english": "do",
+        "malayalam": "ദൊ"
+      },
+      {
+        "english": "do",
+        "malayalam": "ദോ"
+      },
+      {
+        "english": "dau",
+        "malayalam": "ദൗ"
+      },
+      {
+        "english": "dam",
+        "malayalam": "ദം"
+      },
+      {
+        "english": "dya",
+        "malayalam": "ദൃ"
+      },
+      {
+        "english": "dru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "dov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "dla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "dha",
+    "malayalam": "ധ",
+    "variant": [
+      {
+        "english": "dha",
+        "malayalam": "ധ"
+      },
+      {
+        "english": "dhaa",
+        "malayalam": "ധാ"
+      },
+      {
+        "english": "dhi",
+        "malayalam": "ധി"
+      },
+      {
+        "english": "dhee",
+        "malayalam": "ധീ"
+      },
+      {
+        "english": "dhu",
+        "malayalam": "ധു"
+      },
+      {
+        "english": "dhoo",
+        "malayalam": "ധൂ"
+      },
+      {
+        "english": "dhe",
+        "malayalam": "ധെ"
+      },
+      {
+        "english": "dhe",
+        "malayalam": "ധേ"
+      },
+      {
+        "english": "dhai",
+        "malayalam": "ധൈ"
+      },
+      {
+        "english": "dho",
+        "malayalam": "ധൊ"
+      },
+      {
+        "english": "dho",
+        "malayalam": "ധോ"
+      },
+      {
+        "english": "dhau",
+        "malayalam": "ധൗ"
+      },
+      {
+        "english": "dham",
+        "malayalam": "ധം"
+      },
+      {
+        "english": "dhya",
+        "malayalam": "ധൃ"
+      },
+      {
+        "english": "dhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "dhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "dhla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "na",
+    "malayalam": "ന",
+    "variant": [
+      {
+        "english": "na",
+        "malayalam": "ന"
+      },
+      {
+        "english": "naa",
+        "malayalam": "നാ"
+      },
+      {
+        "english": "ni",
+        "malayalam": "നി"
+      },
+      {
+        "english": "nee",
+        "malayalam": "നീ"
+      },
+      {
+        "english": "nu",
+        "malayalam": "നു"
+      },
+      {
+        "english": "noo",
+        "malayalam": "നൂ"
+      },
+      {
+        "english": "ne",
+        "malayalam": "നെ"
+      },
+      {
+        "english": "ne",
+        "malayalam": "നേ"
+      },
+      {
+        "english": "nai",
+        "malayalam": "നൈ"
+      },
+      {
+        "english": "no",
+        "malayalam": "നൊ"
+      },
+      {
+        "english": "no",
+        "malayalam": "നോ"
+      },
+      {
+        "english": "nau",
+        "malayalam": "നൗ"
+      },
+      {
+        "english": "nam",
+        "malayalam": "നം"
+      },
+      {
+        "english": "nya",
+        "malayalam": "നൃ"
+      },
+      {
+        "english": "nru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "nov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "nla",
+        "malayalam": "ഗ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "pa",
+    "malayalam": "പ",
+    "variant": [
+      {
+        "english": "pa",
+        "malayalam": "പ"
+      },
+      {
+        "english": "paa",
+        "malayalam": "പാ"
+      },
+      {
+        "english": "pi",
+        "malayalam": "പി"
+      },
+      {
+        "english": "pee",
+        "malayalam": "പീ"
+      },
+      {
+        "english": "pu",
+        "malayalam": "പു"
+      },
+      {
+        "english": "poo",
+        "malayalam": "പൂ"
+      },
+      {
+        "english": "pe",
+        "malayalam": "പെ"
+      },
+      {
+        "english": "pe",
+        "malayalam": "പേ"
+      },
+      {
+        "english": "pai",
+        "malayalam": "പൈ"
+      },
+      {
+        "english": "po",
+        "malayalam": "പൊ"
+      },
+      {
+        "english": "po",
+        "malayalam": "പോ"
+      },
+      {
+        "english": "pau",
+        "malayalam": "പൗ"
+      },
+      {
+        "english": "pam",
+        "malayalam": "പം"
+      },
+      {
+        "english": "pya",
+        "malayalam": "പൃ"
+      },
+      {
+        "english": "pru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "pov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "pla",
+        "malayalam": "പ്ല"
+      }
+    ]
+  },
+  {
+    "english": "pha",
+    "malayalam": "ഫ",
+    "variant": [
+      {
+        "english": "pha",
+        "malayalam": "ഫ"
+      },
+      {
+        "english": "phaa",
+        "malayalam": "ഫാ"
+      },
+      {
+        "english": "phi",
+        "malayalam": "ഫി"
+      },
+      {
+        "english": "phee",
+        "malayalam": "ഫീ"
+      },
+      {
+        "english": "phu",
+        "malayalam": "ഫു"
+      },
+      {
+        "english": "phoo",
+        "malayalam": "ഫൂ"
+      },
+      {
+        "english": "phe",
+        "malayalam": "ഫെ"
+      },
+      {
+        "english": "phe",
+        "malayalam": "ഫേ"
+      },
+      {
+        "english": "phai",
+        "malayalam": "ഫൈ"
+      },
+      {
+        "english": "pho",
+        "malayalam": "ഫൊ"
+      },
+      {
+        "english": "pho",
+        "malayalam": "ഫോ"
+      },
+      {
+        "english": "phau",
+        "malayalam": "ഫൗ"
+      },
+      {
+        "english": "pham",
+        "malayalam": "ഫം"
+      },
+      {
+        "english": "phya",
+        "malayalam": "ഫൃ"
+      },
+      {
+        "english": "phru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "phov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "phla",
+        "malayalam": "പ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ba",
+    "malayalam": "ബ",
+    "variant": [
+      {
+        "english": "ba",
+        "malayalam": "ബ"
+      },
+      {
+        "english": "baa",
+        "malayalam": "ബാ"
+      },
+      {
+        "english": "bi",
+        "malayalam": "ബി"
+      },
+      {
+        "english": "bee",
+        "malayalam": "ബീ"
+      },
+      {
+        "english": "bu",
+        "malayalam": "ബു"
+      },
+      {
+        "english": "boo",
+        "malayalam": "ബൂ"
+      },
+      {
+        "english": "be",
+        "malayalam": "ബെ"
+      },
+      {
+        "english": "be",
+        "malayalam": "ബേ"
+      },
+      {
+        "english": "bai",
+        "malayalam": "ബൈ"
+      },
+      {
+        "english": "bo",
+        "malayalam": "ബൊ"
+      },
+      {
+        "english": "bo",
+        "malayalam": "ബോ"
+      },
+      {
+        "english": "bau",
+        "malayalam": "ബൗ"
+      },
+      {
+        "english": "bam",
+        "malayalam": "ബം"
+      },
+      {
+        "english": "bya",
+        "malayalam": "ബൃ"
+      },
+      {
+        "english": "bru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "bov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "bla",
+        "malayalam": "ബ്ല"
+      }
+    ]
+  },
+  {
+    "english": "bha",
+    "malayalam": "ഭ",
+    "variant": [
+      {
+        "english": "bha",
+        "malayalam": "ഭ"
+      },
+      {
+        "english": "bhaa",
+        "malayalam": "ഭാ"
+      },
+      {
+        "english": "bhi",
+        "malayalam": "ഭി"
+      },
+      {
+        "english": "bhee",
+        "malayalam": "ഭീ"
+      },
+      {
+        "english": "bhu",
+        "malayalam": "ഭു"
+      },
+      {
+        "english": "bhoo",
+        "malayalam": "ഭൂ"
+      },
+      {
+        "english": "bhe",
+        "malayalam": "ഭെ"
+      },
+      {
+        "english": "bhe",
+        "malayalam": "ഭേ"
+      },
+      {
+        "english": "bhai",
+        "malayalam": "ഭൈ"
+      },
+      {
+        "english": "bho",
+        "malayalam": "ഭൊ"
+      },
+      {
+        "english": "bho",
+        "malayalam": "ഭോ"
+      },
+      {
+        "english": "bhau",
+        "malayalam": "ഭൗ"
+      },
+      {
+        "english": "bham",
+        "malayalam": "ഭം"
+      },
+      {
+        "english": "bhya",
+        "malayalam": "ഭൃ"
+      },
+      {
+        "english": "bhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "bhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "bhla",
+        "malayalam": "ബ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ma",
+    "malayalam": "മ",
+    "variant": [
+      {
+        "english": "ma",
+        "malayalam": "മ"
+      },
+      {
+        "english": "maa",
+        "malayalam": "മാ"
+      },
+      {
+        "english": "mi",
+        "malayalam": "മി"
+      },
+      {
+        "english": "mee",
+        "malayalam": "മീ"
+      },
+      {
+        "english": "mu",
+        "malayalam": "മു"
+      },
+      {
+        "english": "moo",
+        "malayalam": "മൂ"
+      },
+      {
+        "english": "me",
+        "malayalam": "മെ"
+      },
+      {
+        "english": "me",
+        "malayalam": "മേ"
+      },
+      {
+        "english": "mai",
+        "malayalam": "മൈ"
+      },
+      {
+        "english": "mo",
+        "malayalam": "മൊ"
+      },
+      {
+        "english": "mo",
+        "malayalam": "മോ"
+      },
+      {
+        "english": "mau",
+        "malayalam": "മൗ"
+      },
+      {
+        "english": "mam",
+        "malayalam": "മം"
+      },
+      {
+        "english": "mya",
+        "malayalam": "മൃ"
+      },
+      {
+        "english": "mru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "mov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "mla",
+        "malayalam": "മ്ല"
+      }
+    ]
+  },
+  {
+    "english": "ya",
+    "malayalam": "യ",
+    "variant": [
+      {
+        "english": "ya",
+        "malayalam": "യ"
+      },
+      {
+        "english": "yaa",
+        "malayalam": "യാ"
+      },
+      {
+        "english": "yi",
+        "malayalam": "യി"
+      },
+      {
+        "english": "yee",
+        "malayalam": "യീ"
+      },
+      {
+        "english": "yu",
+        "malayalam": "യു"
+      },
+      {
+        "english": "yoo",
+        "malayalam": "യൂ"
+      },
+      {
+        "english": "ye",
+        "malayalam": "യെ"
+      },
+      {
+        "english": "ye",
+        "malayalam": "യേ"
+      },
+      {
+        "english": "yai",
+        "malayalam": "യൈ"
+      },
+      {
+        "english": "yo",
+        "malayalam": "യൊ"
+      },
+      {
+        "english": "yo",
+        "malayalam": "യോ"
+      },
+      {
+        "english": "yau",
+        "malayalam": "യൗ"
+      },
+      {
+        "english": "yam",
+        "malayalam": "യം"
+      },
+      {
+        "english": "yya",
+        "malayalam": "യ്യ"
+      },
+      {
+        "english": "yru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "yov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "yla",
+        "malayalam": "മ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "ra",
+    "malayalam": "ര",
+    "variant": [
+      {
+        "english": "ra",
+        "malayalam": "ര"
+      },
+      {
+        "english": "raa",
+        "malayalam": "രാ"
+      },
+      {
+        "english": "ri",
+        "malayalam": "രി"
+      },
+      {
+        "english": "ree",
+        "malayalam": "രീ"
+      },
+      {
+        "english": "ru",
+        "malayalam": "രു"
+      },
+      {
+        "english": "roo",
+        "malayalam": "രൂ"
+      },
+      {
+        "english": "re",
+        "malayalam": "രെ"
+      },
+      {
+        "english": "re",
+        "malayalam": "രേ"
+      },
+      {
+        "english": "rai",
+        "malayalam": "രൈ"
+      },
+      {
+        "english": "ro",
+        "malayalam": "രൊ"
+      },
+      {
+        "english": "ro",
+        "malayalam": "രോ"
+      },
+      {
+        "english": "rau",
+        "malayalam": "രൗ"
+      },
+      {
+        "english": "ram",
+        "malayalam": "രം"
+      },
+      {
+        "english": "rya",
+        "malayalam": "രൃ"
+      },
+      {
+        "english": "rru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "rov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "rla",
+        "malayalam": "മ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "la",
+    "malayalam": "ല",
+    "variant": [
+      {
+        "english": "la",
+        "malayalam": "ല"
+      },
+      {
+        "english": "laa",
+        "malayalam": "ലാ"
+      },
+      {
+        "english": "li",
+        "malayalam": "ലി"
+      },
+      {
+        "english": "lee",
+        "malayalam": "ലീ"
+      },
+      {
+        "english": "lu",
+        "malayalam": "ലു"
+      },
+      {
+        "english": "loo",
+        "malayalam": "ലൂ"
+      },
+      {
+        "english": "le",
+        "malayalam": "ലെ"
+      },
+      {
+        "english": "le",
+        "malayalam": "ലേ"
+      },
+      {
+        "english": "lai",
+        "malayalam": "ലൈ"
+      },
+      {
+        "english": "lo",
+        "malayalam": "ലൊ"
+      },
+      {
+        "english": "lo",
+        "malayalam": "ലോ"
+      },
+      {
+        "english": "lau",
+        "malayalam": "ലൗ"
+      },
+      {
+        "english": "lam",
+        "malayalam": "ലം"
+      },
+      {
+        "english": "lya",
+        "malayalam": "ലൃ"
+      },
+      {
+        "english": "lru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "lov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "lla",
+        "malayalam": "ല്ല"
+      }
+    ]
+  },
+  {
+    "english": "va",
+    "malayalam": "വ",
+    "variant": [
+      {
+        "english": "va",
+        "malayalam": "വ"
+      },
+      {
+        "english": "vaa",
+        "malayalam": "വാ"
+      },
+      {
+        "english": "vi",
+        "malayalam": "വി"
+      },
+      {
+        "english": "vee",
+        "malayalam": "വീ"
+      },
+      {
+        "english": "vu",
+        "malayalam": "വു"
+      },
+      {
+        "english": "voo",
+        "malayalam": "വൂ"
+      },
+      {
+        "english": "ve",
+        "malayalam": "വെ"
+      },
+      {
+        "english": "ve",
+        "malayalam": "വേ"
+      },
+      {
+        "english": "vai",
+        "malayalam": "വൈ"
+      },
+      {
+        "english": "vo",
+        "malayalam": "വൊ"
+      },
+      {
+        "english": "vo",
+        "malayalam": "വോ"
+      },
+      {
+        "english": "vau",
+        "malayalam": "വൗ"
+      },
+      {
+        "english": "vam",
+        "malayalam": "വം"
+      },
+      {
+        "english": "vya",
+        "malayalam": "വൃ"
+      },
+      {
+        "english": "vru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "vov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "vla",
+        "malayalam": "ല്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "sha",
+    "malayalam": "ശ",
+    "variant": [
+      {
+        "english": "sha",
+        "malayalam": "ശ"
+      },
+      {
+        "english": "shaa",
+        "malayalam": "ശാ"
+      },
+      {
+        "english": "shi",
+        "malayalam": "ശി"
+      },
+      {
+        "english": "shee",
+        "malayalam": "ശീ"
+      },
+      {
+        "english": "shu",
+        "malayalam": "ശു"
+      },
+      {
+        "english": "shoo",
+        "malayalam": "ശൂ"
+      },
+      {
+        "english": "she",
+        "malayalam": "ശെ"
+      },
+      {
+        "english": "she",
+        "malayalam": "ശേ"
+      },
+      {
+        "english": "shai",
+        "malayalam": "ശൈ"
+      },
+      {
+        "english": "sho",
+        "malayalam": "ശൊ"
+      },
+      {
+        "english": "sho",
+        "malayalam": "ശോ"
+      },
+      {
+        "english": "shau",
+        "malayalam": "ശൗ"
+      },
+      {
+        "english": "sham",
+        "malayalam": "ശം"
+      },
+      {
+        "english": "shya",
+        "malayalam": "ശൃ"
+      },
+      {
+        "english": "shru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "shov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "shla",
+        "malayalam": "ശ്ല"
+      }
+    ]
+  },
+  {
+    "english": "shha",
+    "malayalam": "ഷ",
+    "variant": [
+      {
+        "english": "shha",
+        "malayalam": "ഷ"
+      },
+      {
+        "english": "shhaa",
+        "malayalam": "ഷാ"
+      },
+      {
+        "english": "shhi",
+        "malayalam": "ഷി"
+      },
+      {
+        "english": "shhee",
+        "malayalam": "ഷീ"
+      },
+      {
+        "english": "shhu",
+        "malayalam": "ഷു"
+      },
+      {
+        "english": "shhoo",
+        "malayalam": "ഷൂ"
+      },
+      {
+        "english": "shhe",
+        "malayalam": "ഷെ"
+      },
+      {
+        "english": "shhe",
+        "malayalam": "ഷേ"
+      },
+      {
+        "english": "shhai",
+        "malayalam": "ഷൈ"
+      },
+      {
+        "english": "shho",
+        "malayalam": "ഷൊ"
+      },
+      {
+        "english": "shho",
+        "malayalam": "ഷോ"
+      },
+      {
+        "english": "shhau",
+        "malayalam": "ഷൗ"
+      },
+      {
+        "english": "shham",
+        "malayalam": "ഷം"
+      },
+      {
+        "english": "shhya",
+        "malayalam": "ഷൃ"
+      },
+      {
+        "english": "shhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "shhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "shhla",
+        "malayalam": "ശ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "sa",
+    "malayalam": "സ",
+    "variant": [
+      {
+        "english": "sa",
+        "malayalam": "സ"
+      },
+      {
+        "english": "saa",
+        "malayalam": "സാ"
+      },
+      {
+        "english": "si",
+        "malayalam": "സി"
+      },
+      {
+        "english": "see",
+        "malayalam": "സീ"
+      },
+      {
+        "english": "su",
+        "malayalam": "സു"
+      },
+      {
+        "english": "soo",
+        "malayalam": "സൂ"
+      },
+      {
+        "english": "se",
+        "malayalam": "സെ"
+      },
+      {
+        "english": "se",
+        "malayalam": "സേ"
+      },
+      {
+        "english": "sai",
+        "malayalam": "സൈ"
+      },
+      {
+        "english": "so",
+        "malayalam": "സൊ"
+      },
+      {
+        "english": "so",
+        "malayalam": "സോ"
+      },
+      {
+        "english": "sau",
+        "malayalam": "സൗ"
+      },
+      {
+        "english": "sam",
+        "malayalam": "സം"
+      },
+      {
+        "english": "sya",
+        "malayalam": "സൃ"
+      },
+      {
+        "english": "sru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "sov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "sla",
+        "malayalam": "സ്ല"
+      }
+    ]
+  },
+  {
+    "english": "ha",
+    "malayalam": "ഹ",
+    "variant": [
+      {
+        "english": "ha",
+        "malayalam": "ഹ"
+      },
+      {
+        "english": "haa",
+        "malayalam": "ഹാ"
+      },
+      {
+        "english": "hi",
+        "malayalam": "ഹി"
+      },
+      {
+        "english": "hee",
+        "malayalam": "ഹീ"
+      },
+      {
+        "english": "hu",
+        "malayalam": "ഹു"
+      },
+      {
+        "english": "hoo",
+        "malayalam": "ഹൂ"
+      },
+      {
+        "english": "he",
+        "malayalam": "ഹെ"
+      },
+      {
+        "english": "he",
+        "malayalam": "ഹേ"
+      },
+      {
+        "english": "hai",
+        "malayalam": "ഹൈ"
+      },
+      {
+        "english": "ho",
+        "malayalam": "ഹൊ"
+      },
+      {
+        "english": "ho",
+        "malayalam": "ഹോ"
+      },
+      {
+        "english": "hau",
+        "malayalam": "ഹൗ"
+      },
+      {
+        "english": "ham",
+        "malayalam": "ഹം"
+      },
+      {
+        "english": "hya",
+        "malayalam": "ഹൃ"
+      },
+      {
+        "english": "hru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "hov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "hla",
+        "malayalam": "സ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "lha",
+    "malayalam": "ള",
+    "variant": [
+      {
+        "english": "lha",
+        "malayalam": "ള"
+      },
+      {
+        "english": "lhaa",
+        "malayalam": "ളാ"
+      },
+      {
+        "english": "lhi",
+        "malayalam": "ളി"
+      },
+      {
+        "english": "lhee",
+        "malayalam": "ളീ"
+      },
+      {
+        "english": "lhu",
+        "malayalam": "ളു"
+      },
+      {
+        "english": "lhoo",
+        "malayalam": "ളൂ"
+      },
+      {
+        "english": "lhe",
+        "malayalam": "ളെ"
+      },
+      {
+        "english": "lhe",
+        "malayalam": "ളേ"
+      },
+      {
+        "english": "lhai",
+        "malayalam": "ളൈ"
+      },
+      {
+        "english": "lho",
+        "malayalam": "ളൊ"
+      },
+      {
+        "english": "lho",
+        "malayalam": "ളോ"
+      },
+      {
+        "english": "lhau",
+        "malayalam": "ളൗ"
+      },
+      {
+        "english": "lham",
+        "malayalam": "ളം"
+      },
+      {
+        "english": "lhya",
+        "malayalam": "ളൃ"
+      },
+      {
+        "english": "lhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "lhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "lhla",
+        "malayalam": "ള്ള"
+      }
+    ]
+  },
+  {
+    "english": "rra",
+    "malayalam": "റ",
+    "variant": [
+      {
+        "english": "rra",
+        "malayalam": "റ"
+      },
+      {
+        "english": "rraa",
+        "malayalam": "റാ"
+      },
+      {
+        "english": "rri",
+        "malayalam": "റി"
+      },
+      {
+        "english": "rree",
+        "malayalam": "റീ"
+      },
+      {
+        "english": "rru",
+        "malayalam": "റു"
+      },
+      {
+        "english": "rroo",
+        "malayalam": "റൂ"
+      },
+      {
+        "english": "rre",
+        "malayalam": "റെ"
+      },
+      {
+        "english": "rre",
+        "malayalam": "റേ"
+      },
+      {
+        "english": "rrai",
+        "malayalam": "റൈ"
+      },
+      {
+        "english": "rro",
+        "malayalam": "റൊ"
+      },
+      {
+        "english": "rro",
+        "malayalam": "റോ"
+      },
+      {
+        "english": "rrau",
+        "malayalam": "റൗ"
+      },
+      {
+        "english": "rram",
+        "malayalam": "റം"
+      },
+      {
+        "english": "rrya",
+        "malayalam": "റൃ"
+      },
+      {
+        "english": "rrru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "rrov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "rrla",
+        "malayalam": "മ്ല",
+        "comment": "not sure"
+      }
+    ]
+  },
+  {
+    "english": "zha",
+    "malayalam": "ഴ",
+    "variant": [
+      {
+        "english": "zha",
+        "malayalam": "ഴ"
+      },
+      {
+        "english": "zhaa",
+        "malayalam": "ഴാ"
+      },
+      {
+        "english": "zhi",
+        "malayalam": "ഴി"
+      },
+      {
+        "english": "zhee",
+        "malayalam": "ഴീ"
+      },
+      {
+        "english": "zhu",
+        "malayalam": "ഴു"
+      },
+      {
+        "english": "zhoo",
+        "malayalam": "ഴൂ"
+      },
+      {
+        "english": "zhe",
+        "malayalam": "ഴെ"
+      },
+      {
+        "english": "zhe",
+        "malayalam": "ഴേ"
+      },
+      {
+        "english": "zhai",
+        "malayalam": "ഴൈ"
+      },
+      {
+        "english": "zho",
+        "malayalam": "ഴൊ"
+      },
+      {
+        "english": "zho",
+        "malayalam": "ഴോ"
+      },
+      {
+        "english": "zhau",
+        "malayalam": "ഴൗ"
+      },
+      {
+        "english": "zham",
+        "malayalam": "ഴം"
+      },
+      {
+        "english": "zhya",
+        "malayalam": "ഴൃ"
+      },
+      {
+        "english": "zhru",
+        "malayalam": "ക്ര",
+        "comment": "not sure"
+      },
+      {
+        "english": "zhov",
+        "malayalam": "ക്വ",
+        "comment": "not sure"
+      },
+      {
+        "english": "zhla",
+        "malayalam": "മ്ല",
+        "comment": "not sure"
+      }
+    ]
+  }
 ]
