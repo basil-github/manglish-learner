@@ -91,6 +91,29 @@ export default function Home() {
           }}
         />
       </div>
+      <div className="">
+        {" "}
+        <div className={styles.grid}>
+          <button
+            className="key__button"
+            onClick={() =>
+              handleOnClick({
+                key: "⎵",
+                english: " ",
+                malayalam: " ",
+              })
+            }
+          >
+            <span className="key_malayalam">⎵</span>⎵
+          </button>
+          <button className="key__button" onClick={() => setTyped([])}>
+            <span className="key_malayalam">⎚</span>clear
+          </button>
+          <button className="key__button" onClick={() => handleBackSpace()}>
+            <span className="key_malayalam"></span>⌫
+          </button>
+        </div>
+      </div>
       {variantModel.length > 1 && (
         <div className={"floating_select " + styles.grid}>
           {variantModel.map((key, i) => (
@@ -99,42 +122,23 @@ export default function Home() {
               className="key__button"
               onClick={() => handleOnClick(key)}
             >
-              <span className="key_malayalam">{key.malayalam}</span>
-              {key.english}
+              <span className="key_malayalam">{key.english}</span>
+              {key.malayalam}
             </button>
           ))}
         </div>
       )}
-
-      <div className={styles.grid}>
+      <div className={styles.grid + " fix_height"}>
         {keys.map((key, i) => (
           <button
             key={i}
             className={"key__button " + (i < 13 ? " variant_null" : "")}
             onClick={() => handleOnClick(key)}
           >
-            <span className="key_malayalam">{key.malayalam}</span>
-            {key.english}
+            <span className="key_malayalam">{key.english}</span>
+            {key.malayalam}
           </button>
         ))}
-        <button
-          className="key__button"
-          onClick={() =>
-            handleOnClick({
-              key: "⎵",
-              english: " ",
-              malayalam: " ",
-            })
-          }
-        >
-          <span className="key_malayalam">⎵</span>⎵
-        </button>
-        <button className="key__button" onClick={() => setTyped([])}>
-          <span className="key_malayalam">⎚</span>clear
-        </button>
-        <button className="key__button" onClick={() => handleBackSpace()}>
-          <span className="key_malayalam"></span>⌫
-        </button>
       </div>
     </>
   );

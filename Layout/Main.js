@@ -1,3 +1,4 @@
+import { Header } from "antd/lib/layout/layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
@@ -7,7 +8,7 @@ function Main({ children }) {
   return (
     <div>
       <Head>
-        <title>Learn മൻglish</title>
+        <title>Learn Manglish</title>
         <meta
           name="description"
           content="By this App മൻglish typing skill will improve"
@@ -15,6 +16,7 @@ function Main({ children }) {
         <meta name="author" content="Basil Babu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>

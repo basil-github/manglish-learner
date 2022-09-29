@@ -1,12 +1,12 @@
 {
-  "theme_color": "#000000",
+  "theme_color": "#C83660",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
-  "name": "Next PWA",
-  "short_name": "PWA",
-  "description": "This app is to demo PWA in Next.js",
+  "name": "\u0d2e\u0d7bglish",
+  "description": "By this App Manglish typing skill will improve",
+  "short_name": "\u0d2e\u0d7bglish",
   "icons": [
     {
       "src": "/icon-192x192.png",
