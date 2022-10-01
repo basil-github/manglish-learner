@@ -4,7 +4,8 @@ import styles from "../styles/Home.module.css";
 import keys from "../public/data.json";
 import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { CopyOutlined, PlayCircleFilled } from "@ant-design/icons";
+import { CopyOutlined, SaveFilled } from "@ant-design/icons";
+import { Modal } from "antd";
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
@@ -16,8 +17,10 @@ export default function Home() {
   const handleOnClick = (e) => {
     if (e.variant) {
       setVariantModel(e.variant);
+      showModal();
     } else {
       setVariantModel([]);
+      handleCancel();
       setTyped((prevState) => [...prevState, e]);
     }
   };
@@ -43,8 +46,46 @@ export default function Home() {
     speakData.pitch = 1; // From 0 to 2
     speechSynthesis.speak(speakData);
   }
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
+      {" "}
+      <Modal
+        title={null}
+        footer={null}
+        open={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+        width={1000}
+        centered
+      >
+        {variantModel.length > 1 && (
+          <div className={styles.grid}>
+            {variantModel.map((key, i) => (
+              <button
+                key={i}
+                className="key__button"
+                onClick={() => handleOnClick(key)}
+              >
+                <span className="key_malayalam">{key.english}</span>
+                {key.malayalam}
+              </button>
+            ))}
+          </div>
+        )}
+      </Modal>
       <div className={styles.description}>
         <div className="input_malayalam">
           <input
@@ -53,15 +94,18 @@ export default function Home() {
             placeholder="type.."
             defaultValue={manlishValue(typed).join("")}
             disabled
-          />
+          />{" "}
+          <button className="key__button save_">
+            <SaveFilled />
+          </button>
           <CopyToClipboard
             text={manlishValue(typed).join("")}
             onCopy={() => setCopiedMalayalam({ copied: true })}
           >
-            <button className="key__button copy">
+            <button className="key__button ">
               <CopyOutlined />
             </button>
-          </CopyToClipboard>{" "}
+          </CopyToClipboard>
         </div>
         <div className="input_malayalam">
           <input
@@ -80,54 +124,17 @@ export default function Home() {
             </button>
           </CopyToClipboard>
         </div>
-        <PlayCircleFilled
+        {/* <PlayCircleFilled
           style={{
-            color: "#a022f0",
+            color: "#C83660",
             fontSize: "35px",
             marginTop: "2rem",
           }}
           onClick={() => {
             speak(englishValue(typed).join(""));
           }}
-        />
+        /> */}
       </div>
-      <div className="">
-        {" "}
-        <div className={styles.grid}>
-          <button
-            className="key__button"
-            onClick={() =>
-              handleOnClick({
-                key: "⎵",
-                english: " ",
-                malayalam: " ",
-              })
-            }
-          >
-            <span className="key_malayalam">⎵</span>⎵
-          </button>
-          <button className="key__button" onClick={() => setTyped([])}>
-            <span className="key_malayalam">⎚</span>clear
-          </button>
-          <button className="key__button" onClick={() => handleBackSpace()}>
-            <span className="key_malayalam"></span>⌫
-          </button>
-        </div>
-      </div>
-      {variantModel.length > 1 && (
-        <div className={"floating_select " + styles.grid}>
-          {variantModel.map((key, i) => (
-            <button
-              key={i}
-              className="key__button"
-              onClick={() => handleOnClick(key)}
-            >
-              <span className="key_malayalam">{key.english}</span>
-              {key.malayalam}
-            </button>
-          ))}
-        </div>
-      )}
       <div className={styles.grid + " fix_height"}>
         {keys.map((key, i) => (
           <button
@@ -139,6 +146,29 @@ export default function Home() {
             {key.malayalam}
           </button>
         ))}
+      </div>
+      <div className="">
+        {" "}
+        <div className={styles.grid}>
+          <button className="key__button" onClick={() => setTyped([])}>
+            <span className="key_malayalam">⎚</span>clear
+          </button>
+          <button
+            className="key__button space_btn"
+            onClick={() =>
+              handleOnClick({
+                key: "⎵",
+                english: " ",
+                malayalam: " ",
+              })
+            }
+          >
+            <span className="key_malayalam">⎵</span>⎵
+          </button>
+          <button className="key__button" onClick={() => handleBackSpace()}>
+            <span className="key_malayalam"></span>⌫
+          </button>
+        </div>
       </div>
     </>
   );

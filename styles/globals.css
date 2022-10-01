@@ -15,7 +15,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a022f0;
+  background: #C83660;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
 
 .key__button:hover,
 .key__button:focus {
-  box-shadow: 0 0 1px #a022f0, 0 1px 0 #fff, 0 4px 0 #c0c0c0, 0 2px 35px rgba(68, 68, 68, 0.3), 2px 2px 4px rgba(68, 68, 68, 0.25), -2px 2px 4px rgba(68, 68, 68, 0.25), 0 7px 4px rgba(68, 68, 68, 0.1);
+  box-shadow: 0 0 1px #C83660, 0 1px 0 #fff, 0 4px 0 #c0c0c0, 0 2px 35px rgba(68, 68, 68, 0.3), 2px 2px 4px rgba(68, 68, 68, 0.25), -2px 2px 4px rgba(68, 68, 68, 0.25), 0 7px 4px rgba(68, 68, 68, 0.1);
   transform: translateY(2px);
 }
 
@@ -66,12 +66,12 @@ a {
   font-size: 20px;
   outline: none;
   border: none;
-  box-shadow: 0 0 1.5px #a022f0;
+  box-shadow: 0 0 1.5px #C83660;
   text-align: center;
 }
 
 .key_input:focus {
-  box-shadow: 0 0 5px #a022f0;
+  box-shadow: 0 0 5px #C83660;
   transform: translateY(2px);
   outline: none;
 }
@@ -95,15 +95,7 @@ a {
 
 .floating_select {
   padding: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  height: fit-content;
-  z-index: 1;
-  width: 95% !important;
-  box-shadow: 0 0 5px #a022f0;
+  box-shadow: 0 0 5px #C83660;
   border-width: 1px;
   border-radius: 10px;
 
@@ -128,7 +120,7 @@ a {
 }
 
 .variant_null {
-  border: .5px solid #a022f073;
+  border: .5px solid #C8366073;
 
 }
 
@@ -137,4 +129,27 @@ a {
   height: 30vh;
   overflow: auto;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.space_btn {
+  width: 160px;
+}
+
+a.nav-item {
+  color: white;
+  transform: 1s;
+
+}
+
+a.nav-item:hover {
+  color: #382758b8;
+}
+
+a.active {
+  color: #382758b8;
+  font-weight: bold;
+}
+
+.save_ {
+  left: 0 !important;
 }

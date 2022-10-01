@@ -1,10 +1,18 @@
-import { Header } from "antd/lib/layout/layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import styles from "../styles/Home.module.css";
+import {
+  HomeFilled,
+  SaveFilled,
+  SoundFilled,
+  MediumCircleFilled,
+} from "@ant-design/icons";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Main({ children }) {
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -19,6 +27,14 @@ function Main({ children }) {
 
       <div div className={styles.container}>
         <main className={styles.main}>
+          <Image
+            src={"/icon-512x512.png"}
+            width={100}
+            height={100}
+            alt="logo"
+            placeholder="blur"
+            blurDataURL="/icon-512x512_place.jpg"
+          />
           <h1 className={styles.title}>
             Welcome to <a> Learn മൻglish </a>
           </h1>
@@ -26,26 +42,40 @@ function Main({ children }) {
         </main>
       </div>
       <nav className={styles.FixedMenu}>
-        <a className="nav-item" href="#">
-          <i data-feather="home"></i>
-          <span>Home</span>
-        </a>
-        <a className="nav-item" href="#">
-          <i data-feather="activity"></i>
-          <span>Activity</span>
-        </a>
-
-        <a className="nav-item" href="#">
-          <i data-feather="message-square"></i>
-          <span>Messages</span>
-        </a>
-
-        <a className="nav-item" href="#">
-          <i data-feather="settings"></i>
-          <span>Settings</span>
-        </a>
+        <Link href={"/"}>
+          <a className={router.asPath == "/" ? "nav-item active" : "nav-item"}>
+            <HomeFilled /> <span>Home</span>
+          </a>
+        </Link>
+        <Link href={"/saved"}>
+          <a
+            className={
+              router.asPath == "/saved" ? "nav-item active" : "nav-item"
+            }
+          >
+            <SaveFilled /> <span>Saved</span>
+          </a>
+        </Link>
+        <Link href={"/listen"}>
+          <a
+            className={
+              router.asPath == "/listen" ? "nav-item active" : "nav-item"
+            }
+          >
+            <SoundFilled /> <span>Listen</span>
+          </a>
+        </Link>
+        <Link href={"/words"}>
+          <a
+            className={
+              router.asPath == "/words" ? "nav-item active" : "nav-item"
+            }
+          >
+            <MediumCircleFilled /> <span>Words</span>
+          </a>
+        </Link>
       </nav>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://www.beacel.in"
           target="_blank"
@@ -56,7 +86,7 @@ function Main({ children }) {
             <Image src="/logo.png" alt="beacel Logo" width={72} height={25} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
