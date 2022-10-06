@@ -36,7 +36,10 @@ function Main({ children }) {
             blurDataURL="/icon-512x512_place.jpg"
           />
           <h1 className={styles.title}>
-            Welcome to <a> Learn മൻglish </a>
+            Welcome to{" "}
+            <Link href={"/"}>
+              <a> Learn മൻglish </a>
+            </Link>
           </h1>
           {children}
         </main>

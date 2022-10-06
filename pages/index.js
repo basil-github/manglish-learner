@@ -5,7 +5,7 @@ import keys from "../public/data.json";
 import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { CopyOutlined, SaveFilled } from "@ant-design/icons";
-import { Modal } from "antd";
+import { message, Modal } from "antd";
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
@@ -59,6 +59,9 @@ export default function Home() {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+  const save = () => {
+    message.info("Copied");
+  };
   return (
     <>
       {" "}
@@ -95,17 +98,22 @@ export default function Home() {
             defaultValue={manlishValue(typed).join("")}
             disabled
           />{" "}
-          <button className="key__button save_">
-            <SaveFilled />
-          </button>
-          <CopyToClipboard
-            text={manlishValue(typed).join("")}
-            onCopy={() => setCopiedMalayalam({ copied: true })}
-          >
-            <button className="key__button ">
-              <CopyOutlined />
-            </button>
-          </CopyToClipboard>
+          {manlishValue(typed).join("") && (
+            <>
+              <button className="key__button save_" onClick={() => save()}>
+                സേവ്
+              </button>
+              <CopyToClipboard
+                text={manlishValue(typed).join("")}
+                onCopy={() => {
+                  setCopiedMalayalam({ copied: true });
+                  message.success("കോപിഡ്");
+                }}
+              >
+                <button className="key__button ">കോപ്പി</button>
+              </CopyToClipboard>
+            </>
+          )}
         </div>
         <div className="input_malayalam">
           <input
@@ -115,14 +123,23 @@ export default function Home() {
             defaultValue={englishValue(typed).join("")}
             disabled
           />
-          <CopyToClipboard
-            text={englishValue(typed).join("")}
-            onCopy={() => setCopiedMalayalam({ copied: true })}
-          >
-            <button className="key__button copy">
-              <CopyOutlined />
-            </button>
-          </CopyToClipboard>
+          {englishValue(typed).join("").length > 0 && (
+            <>
+              {" "}
+              <button className="key__button save_" onClick={() => save()}>
+                save
+              </button>
+              <CopyToClipboard
+                text={englishValue(typed).join("")}
+                onCopy={() => {
+                  setCopiedMalayalam({ copied: true });
+                  message.success("Copied");
+                }}
+              >
+                <button className="key__button copy">Copy</button>
+              </CopyToClipboard>
+            </>
+          )}
         </div>
         {/* <PlayCircleFilled
           style={{
