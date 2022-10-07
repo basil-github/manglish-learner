@@ -8,12 +8,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
     "antd": "^4.23.2",
+    "dexie": "^3.2.2",
+    "dexie-react-hooks": "^1.1.1",
     "next": "12.0.8",
     "next-pwa": "^5.6.0",
     "react": "17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^8.0.4"
   },
   "devDependencies": {
     "eslint": "8.7.0",

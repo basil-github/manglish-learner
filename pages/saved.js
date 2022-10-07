@@ -1,45 +1,41 @@
-import { Space, Table, Tag } from "antd";
-import React from "react";
+import { Button, Space, Table, Tag } from "antd";
+import React, { useEffect, useState } from "react";
+import { addWord, db, deleteWord, Words } from "../utils/db";
 const columns = [
+  {
+    title: "മൻglish",
+    dataIndex: "manglish",
+    key: "manglish",
+  },
   {
     title: "മലയാളം",
     dataIndex: "malayalam",
     key: "malayalam",
   },
   {
-    title: "മൻglish",
-    dataIndex: "manglish",
-    key: "manglish",
-  },
-
-  {
     title: "Action",
     key: "action",
     render: (_, record) => (
       <Space size="middle">
-        <a>Delete</a>
-        <a>Copy</a>
+        <a onClick={() => deleteWord(record?.id)}>Delete</a>
       </Space>
     ),
   },
 ];
-const data = [
-  {
-    key: "1",
-    malayalam: "Jo",
-    manglish: "gfhgfhghg",
-  },
-];
-
-const App = () => (
-  <Table
-    columns={columns}
-    dataSource={data}
-    style={{
-      marginBottom: "4rem",
-      marginTop: "4rem",
-    }}
-  />
-);
+const App = () => {
+  const words = Words();
+  return (
+    <>
+      <Table
+        columns={columns}
+        dataSource={words?.length > 1 ? words : []}
+        style={{
+          marginBottom: "4rem",
+          marginTop: "4rem",
+        }}
+      />
+    </>
+  );
+};
 
 export default App;

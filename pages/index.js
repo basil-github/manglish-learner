@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { CopyOutlined, SaveFilled } from "@ant-design/icons";
 import { message, Modal } from "antd";
+import { addWord } from "../utils/db";
 export default function Home() {
   const [variantModel, setVariantModel] = useState([]);
   const [typed, setTyped] = useState([]);
@@ -59,8 +60,13 @@ export default function Home() {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
-  const save = () => {
-    message.info("Copied");
+  const save = async () => {
+    await addWord({
+      malayalam: manlishValue(typed).join(""),
+      manglish: englishValue(typed).join(""),
+      read_status: false,
+    });
+    message.info("saved");
   };
   return (
     <>
