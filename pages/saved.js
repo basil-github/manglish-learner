@@ -28,7 +28,7 @@ const App = () => {
     <>
       <Table
         columns={columns}
-        dataSource={words?.length > 1 ? words : []}
+        dataSource={words?.length >= 1 ? words : []}
         style={{
           marginBottom: "4rem",
           marginTop: "4rem",

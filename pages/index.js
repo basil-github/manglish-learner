@@ -147,16 +147,6 @@ export default function Home() {
             </>
           )}
         </div>
-        {/* <PlayCircleFilled
-          style={{
-            color: "#C83660",
-            fontSize: "35px",
-            marginTop: "2rem",
-          }}
-          onClick={() => {
-            speak(englishValue(typed).join(""));
-          }}
-        /> */}
       </div>
       <div className={styles.grid + " fix_height"}>
         {keys.map((key, i) => (

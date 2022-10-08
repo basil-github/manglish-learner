@@ -224,3 +224,8 @@ a.active {
     max-width: 100%
   }
 }
+
+span.ant-tag {
+  font-size: 19px !important;
+  padding: 6px 11px !important;
+}

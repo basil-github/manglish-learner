@@ -10,9 +10,12 @@ import {
 } from "@ant-design/icons";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Badge } from "antd";
+import { Words } from "../utils/db";
 
 function Main({ children }) {
   const router = useRouter();
+  const words = Words();
   return (
     <div>
       <Head>
@@ -56,7 +59,9 @@ function Main({ children }) {
               router.asPath == "/saved" ? "nav-item active" : "nav-item"
             }
           >
-            <SaveFilled /> <span>Saved</span>
+            <Badge count={words?.length || 0} color="#39235a">
+              <SaveFilled /> <span>Saved</span>
+            </Badge>
           </a>
         </Link>
         <Link href={"/listen"}>
