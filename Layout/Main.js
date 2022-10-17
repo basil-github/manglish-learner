@@ -52,18 +52,18 @@ function Main({ children }) {
           <a className={router.asPath == "/" ? "nav-item active" : "nav-item"}>
             <HomeFilled /> <span>Home</span>
           </a>
-        </Link>
-        <Link href={"/saved"}>
-          <a
-            className={
-              router.asPath == "/saved" ? "nav-item active" : "nav-item"
-            }
-          >
-            <Badge count={words?.length || 0} color="#39235a">
+        </Link>{" "}
+        <Badge count={words?.length || 0} color="#39235a">
+          <Link href={"/saved"}>
+            <a
+              className={
+                router.asPath == "/saved" ? "nav-item active" : "nav-item"
+              }
+            >
               <SaveFilled /> <span>Saved</span>
-            </Badge>
-          </a>
-        </Link>
+            </a>
+          </Link>{" "}
+        </Badge>
         <Link href={"/listen"}>
           <a
             className={

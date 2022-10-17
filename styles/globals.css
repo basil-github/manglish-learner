@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #eaeaea;
+  word-break: break-all;
 }
 
 ::-webkit-scrollbar {
@@ -228,4 +230,9 @@ a.active {
 span.ant-tag {
   font-size: 19px !important;
   padding: 6px 11px !important;
+}
+
+.ant-collapse,
+.ant-table-wrapper {
+  width: 100% !important;
 }

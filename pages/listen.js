@@ -1,7 +1,8 @@
-import { Button, Card, List, Space, Table, Tag } from "antd";
+import { Button, Card, Collapse, Divider, List, Space, Table, Tag } from "antd";
 import React, { useEffect, useState } from "react";
 import keys from "../public/data.json";
-import { CopyOutlined, PlayCircleFilled } from "@ant-design/icons";
+import { RedoOutlined, PlayCircleFilled } from "@ant-design/icons";
+const { Panel } = Collapse;
 
 const columns = [
   {
@@ -34,18 +35,36 @@ const columns = [
   },
 ];
 const App = () => {
-  const data = keys?.map((key) => ({
-    malayalam: key.malayalam,
-    manglish: key.english,
-  }));
-  function speak(text) {
+  const [is_paly, setIsPlay] = useState(false);
+  const data = [];
+  keys?.map(
+    (key) =>
+      !key.variant &&
+      data.push({
+        malayalam: key.malayalam,
+        manglish: key.english,
+        variant: key.variant,
+      })
+  );
+  const withVariantData = [];
+  keys?.map(
+    (key) =>
+      key.variant &&
+      withVariantData.push({
+        malayalam: key.malayalam,
+        manglish: key.english,
+        variant: key.variant,
+      })
+  );
+  async function speak(text) {
     let speakData = new SpeechSynthesisUtterance();
     speakData.text = text;
     speakData.lang = "in";
     speakData.volume = 1; // From 0 to 1
     speakData.rate = 1; // From 0.1 to 10
     speakData.pitch = 1; // From 0 to 2
-    speechSynthesis.speak(speakData);
+    await speechSynthesis.speak(speakData);
+    return true;
   }
   useEffect(() => {
     const synth = window.speechSynthesis;
@@ -67,7 +86,6 @@ const App = () => {
       loadVoices();
     }
   }, []);
-
   return (
     <>
       <List
@@ -84,20 +102,30 @@ const App = () => {
           marginBottom: "4rem",
           marginTop: "4rem",
         }}
-        dataSource={data}
+        dataSource={new Set(data)}
         renderItem={(item) => (
           <List.Item>
             <Card
               title={
-                <PlayCircleFilled
-                  style={{
-                    color: "#C83660",
-                    fontSize: "35px",
-                  }}
-                  onClick={() => {
-                    speak(item?.malayalam);
-                  }}
-                />
+                is_paly ? (
+                  <RedoOutlined
+                    spin
+                    style={{
+                      color: "#C83660",
+                      fontSize: "35px",
+                    }}
+                  />
+                ) : (
+                  <PlayCircleFilled
+                    style={{
+                      color: "#C83660",
+                      fontSize: "35px",
+                    }}
+                    onClick={async () => {
+                      const res = await speak(item?.malayalam);
+                    }}
+                  />
+                )
               }
             >
               <Tag color="success"> {item?.malayalam}</Tag>
@@ -106,6 +134,59 @@ const App = () => {
           </List.Item>
         )}
       />
+      <Divider />
+      <Collapse defaultActiveKey={["0"]}>
+        {withVariantData.map((key, i) => (
+          <Panel
+            header={
+              <>
+                <Tag color="success"> {key?.malayalam}</Tag>
+                <Tag color="processing"> {key?.manglish}</Tag>
+              </>
+            }
+            key={i}
+          >
+            <List
+              key={i}
+              grid={{
+                gutter: 16,
+                xs: 1,
+                sm: 2,
+                md: 4,
+                lg: 4,
+                xl: 6,
+                xxl: 3,
+              }}
+              style={{
+                marginBottom: "4rem",
+                marginTop: "4rem",
+              }}
+              dataSource={new Set(key.variant)}
+              renderItem={(item) => (
+                <List.Item>
+                  <Card
+                    title={
+                      <PlayCircleFilled
+                        style={{
+                          color: "#C83660",
+                          fontSize: "35px",
+                        }}
+                        onClick={() => {
+                          speak(item?.english);
+                        }}
+                      />
+                    }
+                  >
+                    <Tag color="success"> {item?.malayalam}</Tag>
+                    <Tag color="processing"> {item?.english}</Tag>
+                  </Card>
+                </List.Item>
+              )}
+            />
+          </Panel>
+        ))}
+      </Collapse>{" "}
+      <Divider />
     </>
   );
 };
