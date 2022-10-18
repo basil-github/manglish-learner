@@ -52,6 +52,26 @@
     "malayalam": "അഃ"
   },
   {
+    "english": "l",
+    "malayalam": "ൾ"
+  },
+  {
+    "english": "ll",
+    "malayalam": "ൽ"
+  },
+  {
+    "english": "n",
+    "malayalam": "ൻ"
+  },
+  {
+    "english": "r",
+    "malayalam": "ർ"
+  },
+  {
+    "english": "nn",
+    "malayalam": "ൺ"
+  },
+  {
     "english": "ka",
     "malayalam": "ക",
     "variant": [
@@ -122,6 +142,10 @@
       {
         "english": "kla",
         "malayalam": "ക്ല"
+      },
+      {
+        "english": "nga",
+        "malayalam": "ങ്ക"
       }
     ]
   },
@@ -182,23 +206,8 @@
         "malayalam": "ഖം"
       },
       {
-        "english": "kya",
+        "english": "khya",
         "malayalam": "ഖൃ"
-      },
-      {
-        "english": "kru",
-        "malayalam": "ക്ര",
-        "comment": "not sure"
-      },
-      {
-        "english": "kov",
-        "malayalam": "ക്വ",
-        "comment": "not sure"
-      },
-      {
-        "english": "kla",
-        "malayalam": "ക്ല",
-        "comment": "not sure"
       }
     ]
   },
@@ -260,17 +269,11 @@
       },
       {
         "english": "gya",
-        "malayalam": "ഗൃ"
+        "malayalam": "ഗ്യാ"
       },
       {
         "english": "gru",
-        "malayalam": "ക്ര",
-        "comment": "not sure"
-      },
-      {
-        "english": "gov",
-        "malayalam": "ക്വ",
-        "comment": "not sure"
+        "malayalam": "ഗ്രു"
       },
       {
         "english": "gla",
@@ -337,38 +340,23 @@
       {
         "english": "ghya",
         "malayalam": "ഘൃ"
-      },
-      {
-        "english": "ghru",
-        "malayalam": "ക്ര",
-        "comment": "not sure"
-      },
-      {
-        "english": "ghov",
-        "malayalam": "ക്വ",
-        "comment": "not sure"
-      },
-      {
-        "english": "ghla",
-        "malayalam": "ഗ്ല",
-        "comment": "not sure"
       }
     ]
   },
   {
-    "english": "nga",
+    "english": "nna",
     "malayalam": "ങ",
     "variant": [
       {
-        "english": "nga",
+        "english": "nna",
         "malayalam": "ങ"
       },
       {
-        "english": "ngaa",
+        "english": "nnaa",
         "malayalam": "ങാ"
       },
       {
-        "english": "ngi",
+        "english": "nni",
         "malayalam": "ങി"
       },
       {

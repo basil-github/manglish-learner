@@ -149,17 +149,36 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.grid + " fix_height"}>
-        {keys.map((key, i) => (
-          <button
-            key={i}
-            className={"key__button " + (i < 13 ? " variant_null" : "")}
-            onClick={() => handleOnClick(key)}
-          >
-            <span className="key_malayalam">{key.english}</span>
-            {key.malayalam}
-          </button>
-        ))}
-      </div>
+        {keys.map(
+          (key, i) =>
+            !key?.variant && (
+              <button
+                key={i}
+                className={"key__button " + (i < 13 ? " variant_null" : "")}
+                onClick={() => handleOnClick(key)}
+              >
+                <span className="key_malayalam">{key.english}</span>
+                {key.malayalam}
+              </button>
+            )
+        )}
+        <div>
+          {" "}
+          {keys.map(
+            (key, i) =>
+              key?.variant && (
+                <button
+                  key={i}
+                  className={"key__button " + (i < 13 ? " variant_null" : "")}
+                  onClick={() => handleOnClick(key)}
+                >
+                  <span className="key_malayalam">{key.english}</span>
+                  {key.malayalam}
+                </button>
+              )
+          )}
+        </div>
+      </div>{" "}
       <div className="">
         {" "}
         <div className={styles.grid}>
