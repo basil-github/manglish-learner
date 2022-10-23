@@ -1,12 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 import {
   HomeFilled,
   SaveFilled,
   SoundFilled,
   MediumCircleFilled,
+  InfoOutlined,
+  CloseOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -16,18 +18,46 @@ import { Words } from "../utils/db";
 function Main({ children }) {
   const router = useRouter();
   const words = Words();
+  const [info_open, setInfoOpen] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setInfoOpen(false);
+    window?.removeEventListener("scroll", onScroll);
+    window?.addEventListener("scroll", onScroll, { passive: true });
+    return () => window?.removeEventListener("scroll", onScroll);
+  }, []);
   return (
     <div>
-      <Head>
-        <title>Learn Manglish</title>
-        <meta
-          name="description"
-          content="By this App മൻglish typing skill will improve"
-        />
-        <meta name="author" content="Basil Babu" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <div
+        className="fixed_menu_info"
+        style={{
+          width: info_open && "200px",
+        }}
+        onClick={() => {
+          setInfoOpen(!info_open);
+        }}
+      >
+        {info_open ? (
+          <CloseOutlined
+            onClick={() => {
+              setInfoOpen(!info_open);
+            }}
+          />
+        ) : (
+          <InfoOutlined />
+        )}
+        {info_open && (
+          <>
+            <p class="">
+              From this web-app every user can learn manglish easily.It includes
+              typing,listening , and more.
+            </p>
+            From{" | "}
+            <a href="https://www.beacel.in/" target={"_blank"}>
+              <img src="/logo.png" width={80} />
+            </a>
+          </>
+        )}
+      </div>
       <div div className={styles.container}>
         <main className={styles.main}>
           <Image

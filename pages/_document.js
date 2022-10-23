@@ -5,9 +5,15 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Learn Manglish</title>
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
           <meta name="theme-color" content="#fff" />
+          <meta
+            name="description"
+            content="By this App മൻglish typing skill will improve"
+          />
+          <meta name="author" content="Basil Babu" />
         </Head>
         <body>
           <Main />
