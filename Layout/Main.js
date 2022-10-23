@@ -71,7 +71,7 @@ function Main({ children }) {
           <h1 className={styles.title}>
             Welcome to{" "}
             <Link href={"/"}>
-              <a> Learn മൻglish </a>
+              <a>മൻglish Learn</a>
             </Link>
           </h1>
           {children}
