@@ -35,8 +35,7 @@
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: #C83660;
-
+  background-color: #c83660;
 }
 
 .footer a {
@@ -46,11 +45,9 @@
 }
 
 .title a {
-  color: #C83660;
+  color: #c83660;
   text-decoration: none;
 }
-
-
 
 .title a:hover,
 .title a:focus,
@@ -89,11 +86,10 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1080px;
 }
 
 .card {
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -107,8 +103,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #C83660;
-  border-color: #C83660;
+  color: #c83660;
+  border-color: #c83660;
 }
 
 .card h2 {
@@ -135,7 +131,7 @@
 
   .title {
     margin: 0;
-    line-height: .15;
+    line-height: 0.15;
     font-size: 20px;
   }
 
